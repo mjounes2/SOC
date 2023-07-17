@@ -1,4 +1,4 @@
-- hosts: yum
+- hosts: all
   tasks:
   - name: Update all installed packages using YUM module
     yum:
@@ -16,7 +16,7 @@
     reboot:
     when: yum_update_status.changed
 
-- hosts: apt
+- hosts: all
   tasks:
   - name: Update all installed packages using APT module
     apt:
@@ -35,7 +35,7 @@
       post_reboot_delay: 60
     when: apt_update_status.changed
 
-- hosts: ipkg
+- hosts: all
   tasks:
   - name: Update the Packages installed on Diskstation
     command: /opt/bin/ipkg update && /opt/bin/ipkg upgrade
