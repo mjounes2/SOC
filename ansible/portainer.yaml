@@ -2,6 +2,7 @@
   become: yes
   tasks:
   
+    - name: Deploy Portainer
       community.docker.docker_container:
         name: portainer
         image: portainer/portainer-ce
