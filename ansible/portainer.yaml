@@ -1,4 +1,4 @@
-- hosts: all
+- hosts: 192.168.1.100
   become: yes
   tasks:
 
