@@ -1,0 +1,152 @@
+#!/bin/bash
+
+# Copyright Stamus Networks, 2018
+# All rights reserved
+# Debian Live/Install ISO script - oss@stamus-networks.com
+#
+# Please run on Debian Stretch
+
+set -ex
+
+# Setting up the LIVE root (during install on disk it is preseeded)
+echo "root:StamusNetworks" | chpasswd
+
+# Enable color output and the "ll" command in shell 
+echo " export LS_OPTIONS='--color=auto'" >> /root/.bashrc
+echo " alias ll='ls $LS_OPTIONS -l'" >> /root/.bashrc
+
+
+# Set up the host name
+echo "SELKS" > /etc/hostname
+
+# Enable the ssh banners
+sed -i -e 's|\#Banner \/etc\/issue\.net|Banner \/etc\/issue\.net|'  /etc/ssh/sshd_config
+
+# Edit the Icon "Install Debian Stretch" name on a Live Desktop 
+# to "Install SELKS"
+sed -i -e 's|Name\=Install Debian sid|Name\=Install SELKS|'  /usr/share/applications/debian-installer-launcher.desktop 
+
+# First time setup
+
+cat >> /etc/skel/Desktop/FirstTimeSetup.txt <<EOF
+
+It is always recommended to follow the latest docs:        
+https://github.com/StamusNetworks/SELKS/wiki
+
+Please go to the end of the brief below for production setup considerations.
+
+First time setup:   
+
+Non interactive, airgapped mode.
+The below command will setup the selks installation:
+- in non-interactive mode
+- install all containers (elasticsearch/suricata/ngingx/logstash/kibana/scirius/evebox/portainer) without pulling anything from the internet
+- use the interface tppdummy0 as sniffing interface
+- use 8GB of RAM for Elasticsearch
+- start up the installation (docker compose)
+
+Examples:   
+
+
+cd /opt/selksd/SELKS/docker/ && \
+./easy-setup.sh --non-interactive --no-pull-containers -i tppdummy0 \
+--iA --restart-mode always --es-memory 8G && \
+docker-compose up -d 
+
+
+Interactive with latest updated containers and software:
+
+- update/pull and install all containers (elasticsearch/suricata/ngingx/logstash/kibana/scirius/evebox/portainer)
+- use the interface tppdummy0 as sniffing interface
+- use 8GB of RAM for Elasticsearch, 1GB
+- start up the installation (docker compose)
+
+Example:  
+
+cd /opt/selksd/SELKS/docker/
+docker-compose down
+git pull
+./easy-setup.sh --iA --es-memory 8G 
+docker-compose pull
+docker-compose up -d --force-recreate
+
+
+Setting up dummy interface       
+If you would not want to sniff on specific system interface and want to set up a dummy interface for sniffing to replay for example specific pcap cases:
+
+Example:   
+
+ip link add tppdummy0 type dummy && \
+ip link set tppdummy0 up && \
+ifconfig tppdummy0 mtu 1572
+
+Production setup considerations:
+https://github.com/StamusNetworks/SELKS/wiki/Docker#production-setup
+
+EOF
+
+# copy for root to
+cp /etc/skel/Desktop/FirstTimeSetup.txt /root/Desktop/
+
+# Clean devel and some others packages
+apt-get -y remove bison  autoconf automake libc6-dev autotools-dev libpcap-dev libnet1-dev libcap-ng-dev \
+	libnetfilter-queue-dev  libnss3-dev libnspr4-dev \
+	xscreensaver xscreensaver-data manpages-dev libjansson-dev \
+	ghostscript xmms2-core x11proto-core-dev linux-libc-dev \
+	rpm alien sane-utils libsane rpm2cpio \
+	libx11-dev libx11-doc m4
+
+# Docker install
+apt install apt-transport-https ca-certificates curl gnupg lsb-release -y
+curl -fsSL https://download.docker.com/linux/debian/gpg | gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+
+echo "deb [arch=amd64 signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/debian \
+$(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null   
+
+apt update && apt-get install -y docker-ce docker-ce-cli containerd.io 
+
+curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+chmod +x /usr/local/bin/docker-compose
+ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
+
+/bin/systemctl enable docker && \
+/bin/systemctl start docker 
+/bin/systemctl daemon-reload
+
+ip link add tppdummy0 type dummy && \
+ip link set tppdummy0 up && \
+ifconfig tppdummy0 mtu 1572 
+
+mkdir -p /opt/selksd/
+
+cd /opt/selksd/ && \
+git clone https://github.com/StamusNetworks/SELKS.git && cd SELKS/docker/ && \
+uname -a && whoami && echo $UID 
+
+mkdir -p /opt/selksd/SELKS/docker/tar_images
+
+apt update && apt-get install -y python3-requests
+
+mkdir -p /opt/selksd/pull/
+cd /opt/selksd/pull/ && \
+git clone https://github.com/NotGlop/docker-drag.git && \
+python3 docker-drag/docker_pull.py jasonish/suricata:master-amd64 && \
+python3 docker-drag/docker_pull.py python:3.9.5-slim-buster && \
+python3 docker-drag/docker_pull.py hello-world:latest && \
+python3 docker-drag/docker_pull.py portainer/portainer-ce:latest && \
+python3 docker-drag/docker_pull.py nginx:latest && \
+python3 docker-drag/docker_pull.py elastic/elasticsearch:7.16.1 && \
+python3 docker-drag/docker_pull.py elastic/kibana:7.16.1 && \
+python3 docker-drag/docker_pull.py elastic/logstash:7.16.1 && \
+python3 docker-drag/docker_pull.py jasonish/suricata:master-amd64 && \
+python3 docker-drag/docker_pull.py ghcr.io/stamusnetworks/scirius:master && \
+python3 docker-drag/docker_pull.py jasonish/evebox:master && \
+python3 docker-drag/docker_pull.py ghcr.io/stamusnetworks/arkimeviewer:master 
+
+mv /opt/selksd/pull/*.tar /opt/selksd/SELKS/docker/tar_images
+rm -rf /opt/selksd/pull/ 
+
+apt-get autoremove -y
+apt-get clean && \
+cat /dev/null > ~/.bash_history && history -c
+
