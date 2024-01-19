@@ -1,0 +1,7 @@
+/configs/
+/files/
+/gnupg/
+/logs/
+/ssl/
+.env
+env.hcl
