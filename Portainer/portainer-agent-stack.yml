@@ -21,7 +21,9 @@ services:
       - "19000:9000"
       - "18000:8000"
     volumes:
-      - portainer_data:/data
+      - type: bind
+        source: ./SOC/Portainer
+        target: /data
     networks:
       - agent_network
     deploy:
