@@ -57,44 +57,6 @@ Please follow the steps mentioned [here](https://github.com/Shuffle/Shuffle/blob
 ## Website
 [https://shuffler.io](https://shuffler.io)
 
-## Contributing
-We want to make the world of cybersecurity more accessible and need all the help we can get. Send an email to [frikky@shuffler](mailto:frikky@shuffler.io) and we'll make sure to give you any training you may need.
-
-These are the main areas to contribute in:
-* Frontend (ReactJS)
-* Backend (Golang)
-* App Creation (Python & GUI w/OpenAPI)
-* Documentation (Markdown)
-* Workflow creation (GUI & Conceptualizing) 
-* Content Creation (Blogs, videos etc) 
-
-Contributing guidelines are outlined [here](https://github.com/frikky/Shuffle/blob/master/.github/CONTRIBUTING.md).
-
-## Contributors 
-![ICPL logo](https://github.com/Shuffle/Shuffle/blob/main/frontend/src/assets/img/icpl_logo.png)
-
-**Shuffle**
-<a href="https://github.com/frikky/shuffle/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=frikky/shuffle" />
-</a>
-
-[**App magicians**](https://github.com/frikky/shuffle-apps)
-<a href="https://github.com/frikky/shuffle-apps/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=frikky/shuffle-apps" />
-</a>
-
-
-## License
-All modular information related to Shuffle will be under MIT (anyone can use it for whatever purpose), with Shuffle itself using AGPLv3. 
-
-Workflows: MIT
-Documentation: MIT
-Shuffle backend: AGPLv3 
-Apps, specification and App SDK: MIT
-
-## Architecture
-![Shuffle Architecture](https://github.com/frikky/Shuffle/blob/main/frontend/src/assets/img/shuffle_architecture.png)
-
 ### Repository overview 
 Below is the folder structure with a short explanation
 ```bash
@@ -110,4 +72,3 @@ Below is the folder structure with a short explanation
 └ docker-compose.yml 	# Used for deployments
 ```
 
-[Get in touch](https://shuffler.io/contact), send a mail to [frikky@shuffler.io](mailto:frikky@shuffler.io) or poke me on twitter [@frikkylikeme](https://twitter.com/frikkylikeme)
