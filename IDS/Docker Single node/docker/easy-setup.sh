@@ -439,7 +439,7 @@ function install_docker_compose(){
 }
 function install_portainer(){
   docker volume create portainer_data && \
-  docker run -d -p 9443:9443 --name=portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce --logo "https://www.stamus-networks.com/hubfs/stamus_logo_blue_cropped-2.png" && \
+  docker run -d -p 9443:9443 --name=portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce --logo "https://raw.githubusercontent.com/mjounes2/SOC/SEIM/VVMlogo.png" && \
   PORTAINER_INSTALLED="true" && \
   echo -e "${green}+${reset} Portainer has been installed and will be available on port 9443" || \
   echo -e "${red}-${reset} Portainer installation failed\n"

@@ -11,111 +11,127 @@ Shuffle Automation
 
 [Shuffle](https://shuffler.io) is an automation platform for and by the community, focusing on accessibility for anyone to automate. Security operations is complex, but it doesn't have to be.
 
-[_Key Features_](https://shuffler.io/docs/features) —
-[_Community & Support_](https://discord.gg/B2CBzUm) —
-[_Documentation_](https://shuffler.io/docs) —
-[_Getting Started_](https://shuffler.io/docs/getting_started) —
-[_Development_](https://github.com/frikky/Shuffle/blob/master/.github/CONTRIBUTING.md) 
-
-Follow us on Twitter at [@shuffleio](https://twitter.com/shuffleio).
-
 </h4>
 
 ![Example Shuffle webhook integration](https://github.com/frikky/Shuffle/blob/main/frontend/src/assets/img/github_shuffle_img.png)
 
-## Try it
-* Self-hosted: Check out the [installation guide](https://github.com/frikky/shuffle/blob/master/.github/install-guide.md)
-* Cloud: Register at https://shuffler.io/register and get cooking (missing a lot of features)
 
-Please consider [sponsoring](https://github.com/sponsors/frikky) the project if you want to see more rapid development.
+<h1 align="center">
 
-## Support
-* [Discord](https://discord.gg/B2CBzUm)
-* [Twitter](https://twitter.com/shuffleio)
-* [Email](mailto:frikky@shuffler.io)
-* [Open issue](https://github.com/frikky/Shuffle/issues/new)
-* [Shuffler.io](https://shuffler.io/contact)
+[![Shuffle Logo](https://github.com/Shuffle/Shuffle/blob/main/frontend/public/images/Shuffle_logo_new.png)](https://shuffler.io)
 
-## Blogposts
-* [1. Introducing Shuffle](https://medium.com/security-operation-capybara/introducing-shuffle-an-open-source-soar-platform-part-1-58a529de7d12)
-* [2. Getting started with Shuffle](https://medium.com/security-operation-capybara/getting-started-with-shuffle-an-open-source-soar-platform-part-2-1d7c67a64244)
-* [3. Integrating Shuffle with Virustotal and TheHive](https://medium.com/@Frikkylikeme/integrating-shuffle-with-virustotal-and-thehive-open-source-soar-part-3-8e2e0d3396a9)
-* [4. Real-time executions with TheHive, Cortex and MISP](https://medium.com/@Frikkylikeme/indicators-and-webhooks-with-thehive-cortex-and-misp-open-source-soar-part-4-f70cde942e59)
+Shuffle Installation
 
-## Documentation
-[Documentation](https://shuffler.io/docs) can be found on [https://shuffler.io/docs](https://shuffler.io/docs) and is written here: [https://github.com/frikky/shuffle-docs](https://github.com/frikky/shuffle-docs).
+</h1>
 
-### Setting up a local development environment
+Installation of Shuffle is currently available for docker and kubernetes. Looking for how to update Shuffle? Check the [updating guide](https://shuffler.io/docs/configuration#updating_shuffle)
 
-Please follow the steps mentioned [here](https://github.com/Shuffle/Shuffle/blob/main/.github/install-guide.md#local-development-installation)!
+This document outlines an introduction environment which is not scalable. [Read here](https://shuffler.io/docs/configuration#production_readiness) for information on production readiness. This also includes system requirements and configurations for Swarm or Kubernetes. 
 
-## Related repositories
-* OpenAPI apps: [https://github.com/frikky/security-openapis](https://github.com/frikky/security-openapis)
-* Documentation: [https://github.com/frikky/shuffle-docs](https://github.com/frikky/shuffle-docs)
-* Workflows: [https://github.com/frikky/shuffle-workflows](https://github.com/frikky/shuffle-workflows)
-* Python apps: [https://github.com/frikky/shuffle-apps](https://github.com/frikky/shuffle-apps)
+# Docker - *nix
+The Docker setup is done with docker-compose 
 
-## Features
-* Simple, feature rich [workflow editor](https://shuffler.io/docs/workflows)
-* App creator using [OpenAPI](https://github.com/frikky/OpenAPI-security-definitions)
-* Premade apps for your security tools
-* Organization and sub-organization control
-* Hybrid resource sharing with shuffler.io (optional)
+**PS: if you're setting up Shuffle on Windows, go to the next step (Windows Docker setup)**
 
-## Website
-[https://shuffler.io](https://shuffler.io)
-
-## Contributing
-We want to make the world of cybersecurity more accessible and need all the help we can get. Send an email to [frikky@shuffler](mailto:frikky@shuffler.io) and we'll make sure to give you any training you may need.
-
-These are the main areas to contribute in:
-* Frontend (ReactJS)
-* Backend (Golang)
-* App Creation (Python & GUI w/OpenAPI)
-* Documentation (Markdown)
-* Workflow creation (GUI & Conceptualizing) 
-* Content Creation (Blogs, videos etc) 
-
-Contributing guidelines are outlined [here](https://github.com/frikky/Shuffle/blob/master/.github/CONTRIBUTING.md).
-
-## Contributors 
-![ICPL logo](https://github.com/Shuffle/Shuffle/blob/main/frontend/src/assets/img/icpl_logo.png)
-
-**Shuffle**
-<a href="https://github.com/frikky/shuffle/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=frikky/shuffle" />
-</a>
-
-[**App magicians**](https://github.com/frikky/shuffle-apps)
-<a href="https://github.com/frikky/shuffle-apps/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=frikky/shuffle-apps" />
-</a>
-
-
-## License
-All modular information related to Shuffle will be under MIT (anyone can use it for whatever purpose), with Shuffle itself using AGPLv3. 
-
-Workflows: MIT
-Documentation: MIT
-Shuffle backend: AGPLv3 
-Apps, specification and App SDK: MIT
-
-## Architecture
-![Shuffle Architecture](https://github.com/frikky/Shuffle/blob/main/frontend/src/assets/img/shuffle_architecture.png)
-
-### Repository overview 
-Below is the folder structure with a short explanation
+1. Make sure you have [Docker](https://docs.docker.com/get-docker/) and [docker-compose](https://docs.docker.com/compose/install/) installed, and that you have a minimum of **2Gb of RAM** available.
+2. Open Folder
 ```bash
-├── README.md				# What you're reading right now
-├── backend					# Contains backend related code.
-│   ├── go-app 			# The backend golang webserver
-│   └── app_sdk			# The SDK used for apps
-├── frontend				# Contains frontend code. ReactJS, Material UI and cytoscape
-├── functions				# Has execution and extension resources, such as the Wazuh integration
-│   ├── onprem				# Code for onprem solutions
-│   │   ├── Orborus 	# Distributes execution locations
-│   │   ├── Worker		# Runs a workflow
-└ docker-compose.yml 	# Used for deployments
+cd Shuffle
 ```
 
-[Get in touch](https://shuffler.io/contact), send a mail to [frikky@shuffler.io](mailto:frikky@shuffler.io) or poke me on twitter [@frikkylikeme](https://twitter.com/frikkylikeme)
+3. Fix prerequisites for the Opensearch database (Elasticsearch): 
+```bash
+mkdir shuffle-database                    # Create a database folder
+sudo chown -R 1000:1000 shuffle-database  # IF you get an error using 'chown', add the user first with 'sudo useradd opensearch'
+
+sudo swapoff -a                           # Disable swap
+```
+
+4. Run docker-compose.
+```bash
+docker-compose up -d
+```
+
+5. Recommended for Opensearch to work well
+```bash
+sudo sysctl -w vm.max_map_count=262144             # https://www.elastic.co/guide/en/elasticsearch/reference/current/vm-max-map-count.html
+```
+
+When you're done, skip to the [After installation](#after-installation) step below.
+
+
+### Configurations (high availability, scale, proxies, default users etc.)
+https://shuffler.io/docs/configuration
+
+![architecture](https://github.com/frikky/Shuffle/raw/main/frontend/src/assets/img/shuffle_architecture.png)
+
+### After installation 
+1. After installation, go to http://localhost:3001 (or your servername - https is on port 3443)
+2. Now set up your admin account (username & password). Shuffle doesn't have a default username and password. 
+3. Sign in with the same Username & Password! Go to /apps and see if you have any apps yet. If not - you may need to [configure proxies](https://shuffler.io/docs/configuration#production_readiness)
+4. Check out https://shuffler.io/docs/configuration as it has a lot of useful information to get started
+
+![Admin account setup](https://github.com/Shuffle/Shuffle/blob/main/frontend/src/assets/img/shuffle_adminaccount.png?raw=true)
+
+### Useful info
+* Check out [getting started](https://shuffler.io/docs/getting_started)
+* The default state of Shuffle is NOT scalable. See [production setup](https://shuffler.io/docs/configuration#production_readiness) for more info
+* The server is available on http://localhost:3001 (or your servername)
+* Further configurations can be done in docker-compose.yml and .env.
+* Default database location is in the same folder: ./shuffle-database
+
+# Local development installation
+
+Local development is pretty straight forward with **ReactJS** and **Golang**. This part is intended to help you run the code for development purposes. We recommend having Shuffle running with the Docker-compose, then manually running the portion that you want to test and/or edit.
+
+**PS: You have to stop the Backend Docker container to get this one working**
+
+**PPS: Use the "main" branch when developing to get it set up easier**
+
+## Frontend - ReactJS /w cytoscape
+http://localhost:3000 - Requires [npm](https://nodejs.org/en/download/)/[yarn](https://yarnpkg.com/lang/en/docs/install/#debian-stable)/your preferred manager. Runs independently from backend.
+```bash
+cd frontend
+yarn install
+yarn start
+```
+
+## Backend - Golang
+http://localhost:5001 - REST API - requires [>=go1.13](https://golang.org/dl/)
+```bash
+export SHUFFLE_OPENSEARCH_URL="https://localhost:9200"
+export SHUFFLE_ELASTIC=true
+export SHUFFLE_OPENSEARCH_USERNAME=vaporvm
+export SHUFFLE_OPENSEARCH_PASSWORD=C$!$oC#o4/%%!
+export SHUFFLE_OPENSEARCH_SKIPSSL_VERIFY=true
+cd backend/go-app
+go run main.go walkoff.go docker.go
+```
+
+## Database - Opensearch 
+Make sure this is running through the docker-compose, and that the backend points to it with SHUFFLE_OPENSEARCH_URL defined.
+
+So essentially, what that means is:
+1. Make sure you have docker-compose installed
+2. Make sure you have the docker-compose.yml file from this repository
+3. Run `docker-compose up opensearch -d`
+
+## Orborus
+Execution of Workflows:
+PS: This requires some specific environment variables
+```
+cd functions/onprem/orborus
+go run orborus.go
+```
+
+Environments (modify for Windows):
+```
+export ORG_ID=VaporVM
+export ENVIRONMENT_NAME=VaporVM
+export BASE_URL=http://YOUR-IP:5001
+export DOCKER_API_VERSION=1.40
+```
+
+AND THAT's it - hopefully, it worked. If it didn't please email [SOC@Vaporvm.com](mailto:soc@vaporvm.com)
+
+
