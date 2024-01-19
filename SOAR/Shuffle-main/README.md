@@ -15,11 +15,6 @@ Shuffle Automation
 
 ![Example Shuffle webhook integration](https://github.com/frikky/Shuffle/blob/main/frontend/src/assets/img/github_shuffle_img.png)
 
-## Try it
-* Self-hosted: Check out the [installation guide](https://github.com/frikky/shuffle/blob/master/.github/install-guide.md)
-* Cloud: Register at https://shuffler.io/register and get cooking (missing a lot of features)
-
-Please consider [sponsoring](https://github.com/sponsors/frikky) the project if you want to see more rapid development.
 
 <h1 align="center">
 
@@ -65,25 +60,6 @@ sudo sysctl -w vm.max_map_count=262144             # https://www.elastic.co/guid
 
 When you're done, skip to the [After installation](#after-installation) step below.
 
-## Windows with WSL  
-This step is for setting up with Docker on windows from scratch.
-
-1. Make sure you have [Docker](https://docs.docker.com/docker-for-windows/install/) and [docker-compose](https://docs.docker.com/compose/install/) installed. WSL2 may be required.
-
-2. Go to https://github.com/frikky/shuffle/releases and download the latest .zip release (or install git)
-
-3. Unzip the folder and enter it
-
-4. Open the .env file and change the line with "OUTER_HOSTNAME" to contain your IP:
-
-```bash
-OUTER_HOSTNAME=YOUR.IP.HERE
-```
-
-6. Run docker-compose
-```bash
-docker-compose up -d
-```
 
 ### Configurations (high availability, scale, proxies, default users etc.)
 https://shuffler.io/docs/configuration
@@ -132,17 +108,6 @@ export SHUFFLE_OPENSEARCH_SKIPSSL_VERIFY=true
 cd backend/go-app
 go run main.go walkoff.go docker.go
 ```
-**WINDOWS USERS:** Follow [this guide](https://www.wikihow.com/Create-an-Environment-Variable-in-Windows-10) to add environment variables in your machine.
-
-Large portions of the backend is written in another repository - [shuffle-shared](https://github.com/frikky/shuffle-shared). If you want to update any of this code and test in realtime, we recommend following these steps:
-1. Clone shuffle-shared to a local repository
-2. Open the Shuffle backend's go.mod file (./shuffle/backend/go.mod)  (**NOT** in shuffle-shared)
-3. Change the following line to point to your directory AFTER the =>
-```
-//replace github.com/frikky/shuffle-shared => ../../shuffle-shared
-```
-4. Make the changes you want, then restart the backend server!
-5. With your changes made, make a pull request :fire:
 
 ## Database - Opensearch 
 Make sure this is running through the docker-compose, and that the backend points to it with SHUFFLE_OPENSEARCH_URL defined.
@@ -168,6 +133,6 @@ export BASE_URL=http://YOUR-IP:5001
 export DOCKER_API_VERSION=1.40
 ```
 
-AND THAT's it - hopefully it worked. If it didn't please email [frikky@shuffler.io](mailto:frikky@shuffler.io)
+AND THAT's it - hopefully, it worked. If it didn't please email [SOC@Vaporvm.com](mailto:soc@vaporvm.com)
 
 
