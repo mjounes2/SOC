@@ -126,8 +126,8 @@ go run orborus.go
 
 Environments (modify for Windows):
 ```
-export ORG_ID=Shuffle
-export ENVIRONMENT_NAME=Shuffle
+export ORG_ID=Vaporvm
+export ENVIRONMENT_NAME=Vaporvm
 export BASE_URL=http://YOUR-IP:5001
 export DOCKER_API_VERSION=1.40
 ```
