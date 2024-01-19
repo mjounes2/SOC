@@ -101,8 +101,8 @@ http://localhost:5001 - REST API - requires [>=go1.13](https://golang.org/dl/)
 ```bash
 export SHUFFLE_OPENSEARCH_URL="https://localhost:9200"
 export SHUFFLE_ELASTIC=true
-export SHUFFLE_OPENSEARCH_USERNAME=admin
-export SHUFFLE_OPENSEARCH_PASSWORD=admin
+export SHUFFLE_OPENSEARCH_USERNAME=vaporvm
+export SHUFFLE_OPENSEARCH_PASSWORD=C$!$oC#o4/%%!
 export SHUFFLE_OPENSEARCH_SKIPSSL_VERIFY=true
 cd backend/go-app
 go run main.go walkoff.go docker.go
@@ -126,8 +126,8 @@ go run orborus.go
 
 Environments (modify for Windows):
 ```
-export ORG_ID=Vaporvm
-export ENVIRONMENT_NAME=Vaporvm
+export ORG_ID=VaporVM
+export ENVIRONMENT_NAME=VaporVM
 export BASE_URL=http://YOUR-IP:5001
 export DOCKER_API_VERSION=1.40
 ```
