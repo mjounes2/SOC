@@ -12,7 +12,7 @@ $ docker compose -f generate-indexer-certs.yml run --rm generator
 ```
 3) Start the environment with docker-compose:
 
-- In the foregroud:
+- In the foregroud:-
 ```
 $ docker compose up
 ```
