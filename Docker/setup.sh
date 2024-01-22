@@ -49,3 +49,10 @@ echo -e "${BLUE}Portainer is now running on port 9443 ${RED}please login using t
                  User Name : soc@vaporvm.com ${NC}.${BLUE}"
 
 sudo docker version
+
+# Function to reset text color to default
+reset_color() {
+  echo -e "${NC}"
+}
+
+reset_color
