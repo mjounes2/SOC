@@ -32,6 +32,7 @@ docker run -d -p 9443:9443 --name=portainer --restart=always \
   -v portainer_data:/data \
   portainer/portainer-ce \
   --logo "https://raw.githubusercontent.com/mjounes2/SOC/SEIM/VVMlogo.png"
+
 # confirm installtion 
 BLUE='\033[0;34m'
-echo "${BLUE}Portainer is now running on port 9443 please login using this url https://<your_local host ip>:9443.${BLUE}"
+echo -e "${BLUE}Portainer is now running on port 9443 please login using this url https://<your_local host ip>:9443.${BLUE}"
