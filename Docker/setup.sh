@@ -45,9 +45,10 @@ sysctl -w vm.max_map_count=262144
 
 # confirm installtion 
 
-echo -e "${BLUE}Portainer is now running on port 9443 ${RED}please login using this url (https://<your_local_host_ip>:9443)
-                                                            User Name : "soc@vaporvm.com" 
-                                                            password : "Pa$$w0rd_2020_VVM" ${NC}.${BLUE}"
+echo -e "${BLUE}Portainer is now running on port 9443 ${RED}please login using below Information :-
+ url (https://<your_local_host_ip>:9443)
+ User Name : 'soc@vaporvm.com' 
+ password  : 'Pa\$\$w0rd_2020_VVM'${NC}.${BLUE}"
 
 sudo docker version
 
