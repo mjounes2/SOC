@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# ANSI escape codes for colors
+BLUE='\033[0;34m'
+RED='\033[0;31m'
+NC='\033[0m' # No Color
 
 # Add Docker's official GPG key:
 sudo apt-get update
@@ -33,6 +37,14 @@ docker run -d -p 9443:9443 --name=portainer --restart=always \
   portainer/portainer-ce \
   --logo "https://raw.githubusercontent.com/mjounes2/SOC/SEIM/VVMlogo.png"
 
+# Add docker User
+
+sudo usermod -aG docker $USER
+
+sysctl -w vm.max_map_count=262144
+
 # confirm installtion 
-BLUE='\033[0;34m'
-echo -e "${BLUE}Portainer is now running on port 9443 please login using this url https://<your_local host ip>:9443.${BLUE}"
+
+echo -e "${BLUE}Portainer is now running on port 9443 ${RED}please login using this url (https://<your_local_host_ip>:9443)${NC}.${BLUE}"
+
+sudo docker version
