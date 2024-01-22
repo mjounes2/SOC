@@ -29,7 +29,7 @@ docker volume create portainer_data
 
 # Copy local folder to Docker volume location
 sudo cp -r ./.portainer_data /var/lib/docker/volumes
-sudo cp /var/lib/docker/volumes/.portainer_data  /var/lib/docker/volumes/portainer_data
+sudo cp -r /var/lib/docker/volumes/.portainer_data  /var/lib/docker/volumes/portainer_data
 
 # Run Portainer container
 docker run -d -p 9443:9443 --name=portainer --restart=always \
