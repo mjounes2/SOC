@@ -13,6 +13,7 @@ In this repository you will find the containers to run:
 
 The folder `build-docker-images` contains a README explaining how to build the Wazuh images and the necessary assets.
 The folder `indexer-certs-creator` contains a README explaining how to create the certificates creator tool and the necessary assets.
+The folder `single-node` contains a README explaining how to run a Wazuh environment with one Wazuh manager, one Wazuh indexer, and one Wazuh dashboard.
 The folder `multi-node` contains a README explaining how to run a Wazuh environment with two Wazuh managers, three Wazuh indexers, and one Wazuh dashboard.
 
 ## Documentation
@@ -186,6 +187,72 @@ WAZUH_MONITORING_REPLICAS=0         ##
 
 
 
+## Branches
+
+* `master` branch contains the latest code, be aware of possible bugs on this branch.
+* `stable` branch corresponds to the last Wazuh stable version.
+
+## Compatibility Matrix
+
+| Wazuh version | ODFE    | XPACK  |
+|---------------|---------|--------|
+| v4.9.0        |         |        |
+| v4.8.2        |         |        |
+| v4.8.1        |         |        |
+| v4.8.0        |         |        |
+| v4.7.2        |         |        |
+| v4.7.1        |         |        |
+| v4.7.0        |         |        |
+| v4.6.0        |         |        |
+| v4.5.4        |         |        |
+| v4.5.3        |         |        |
+| v4.5.2        |         |        |
+| v4.5.1        |         |        |
+| v4.5.0        |         |        |
+| v4.4.5        |         |        |
+| v4.4.4        |         |        |
+| v4.4.3        |         |        |
+| v4.4.2        |         |        |
+| v4.4.1        |         |        |
+| v4.4.0        |         |        |
+| v4.3.11       |         |        |
+| v4.3.10       |         |        |
+| v4.3.9        |         |        |
+| v4.3.8        |         |        |
+| v4.3.7        |         |        |
+| v4.3.6        |         |        |
+| v4.3.5        |         |        |
+| v4.3.4        |         |        |
+| v4.3.3        |         |        |
+| v4.3.2        |         |        |
+| v4.3.1        |         |        |
+| v4.3.0        |         |        |
+| v4.2.7        | 1.13.2  | 7.11.2 |
+| v4.2.6        | 1.13.2  | 7.11.2 |
+| v4.2.5        | 1.13.2  | 7.11.2 |
+| v4.2.4        | 1.13.2  | 7.11.2 |
+| v4.2.3        | 1.13.2  | 7.11.2 |
+| v4.2.2        | 1.13.2  | 7.11.2 |
+| v4.2.1        | 1.13.2  | 7.11.2 |
+| v4.2.0        | 1.13.2  | 7.10.2 |
+| v4.1.5        | 1.13.2  | 7.10.2 |
+| v4.1.4        | 1.12.0  | 7.10.2 |
+| v4.1.3        | 1.12.0  | 7.10.2 |
+| v4.1.2        | 1.12.0  | 7.10.2 |
+| v4.1.1        | 1.12.0  | 7.10.2 |
+| v4.1.0        | 1.12.0  | 7.10.2 |
+| v4.0.4        | 1.11.0  |        |
+| v4.0.3        | 1.11.0  |        |
+| v4.0.2        | 1.11.0  |        |
+| v4.0.1        | 1.11.0  |        |
+| v4.0.0        | 1.10.1  |        |
+
+## Credits and Thank you
+
+These Docker containers are based on:
+
+*  "deviantony" dockerfiles which can be found at [https://github.com/deviantony/docker-elk](https://github.com/deviantony/docker-elk)
+*  "xetus-oss" dockerfiles, which can be found at [https://github.com/xetus-oss/docker-ossec-server](https://github.com/xetus-oss/docker-ossec-server)
 
 We thank them and everyone else who has contributed to this project.
 
