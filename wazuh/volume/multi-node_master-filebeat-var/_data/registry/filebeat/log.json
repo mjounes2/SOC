@@ -1,0 +1,16 @@
+{"op":"set","id":1}
+{"k":"filebeat::logs::native::1195549-64768","v":{"source":"/var/ossec/logs/alerts/alerts.json","offset":0,"timestamp":[982862484,1705921239],"id":"native::1195549-64768","prev_id":"","ttl":-1,"type":"log","FileStateOS":{"device":64768,"inode":1195549},"identifier_name":"native"}}
+{"op":"set","id":2}
+{"k":"filebeat::logs::native::1195549-64768","v":{"prev_id":"","source":"/var/ossec/logs/alerts/alerts.json","offset":0,"timestamp":[982862484,1705921239],"ttl":-1,"type":"log","identifier_name":"native","id":"native::1195549-64768","FileStateOS":{"inode":1195549,"device":64768}}}
+{"op":"set","id":3}
+{"k":"filebeat::logs::native::1195549-64768","v":{"timestamp":[512901158,1706006950],"offset":0,"prev_id":"","source":"/var/ossec/logs/alerts/alerts.json","ttl":-1,"type":"log","FileStateOS":{"inode":1195549,"device":64768},"identifier_name":"native","id":"native::1195549-64768"}}
+{"op":"set","id":4}
+{"k":"filebeat::logs::native::1195549-64768","v":{"source":"/var/ossec/logs/alerts/alerts.json","timestamp":[512901158,1706006950],"ttl":-1,"FileStateOS":{"inode":1195549,"device":64768},"identifier_name":"native","id":"native::1195549-64768","prev_id":"","offset":0,"type":"log"}}
+{"op":"set","id":5}
+{"k":"filebeat::logs::native::1195614-64768","v":{"type":"log","offset":0,"timestamp":[513582292,1706006950],"ttl":-1,"FileStateOS":{"inode":1195614,"device":64768},"identifier_name":"native","id":"native::1195614-64768","prev_id":"","source":"/var/ossec/logs/alerts/alerts.json"}}
+{"op":"remove","id":6}
+{"k":"filebeat::logs::native::1195549-64768"}
+{"op":"set","id":7}
+{"k":"filebeat::logs::native::1195614-64768","v":{"offset":0,"ttl":-1,"id":"native::1195614-64768","prev_id":"","source":"/var/ossec/logs/alerts/alerts.json","timestamp":[513582292,1706006950],"type":"log","FileStateOS":{"inode":1195614,"device":64768},"identifier_name":"native"}}
+{"op":"set","id":8}
+{"k":"filebeat::logs::native::1195614-64768","v":{"ttl":-1,"type":"log","identifier_name":"native","id":"native::1195614-64768","timestamp":[513582292,1706006950],"offset":0,"FileStateOS":{"inode":1195614,"device":64768},"prev_id":"","source":"/var/ossec/logs/alerts/alerts.json"}}

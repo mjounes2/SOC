@@ -1,0 +1,16 @@
+{"op":"set","id":1}
+{"k":"filebeat::logs::native::1195357-64768","v":{"prev_id":"","source":"/var/ossec/logs/alerts/alerts.json","offset":0,"ttl":-1,"type":"log","FileStateOS":{"inode":1195357,"device":64768},"id":"native::1195357-64768","timestamp":[456968432,1705921230],"identifier_name":"native"}}
+{"op":"set","id":2}
+{"k":"filebeat::logs::native::1195357-64768","v":{"offset":0,"timestamp":[456968432,1705921230],"identifier_name":"native","ttl":-1,"type":"log","FileStateOS":{"inode":1195357,"device":64768},"id":"native::1195357-64768","prev_id":"","source":"/var/ossec/logs/alerts/alerts.json"}}
+{"op":"set","id":3}
+{"k":"filebeat::logs::native::1195357-64768","v":{"ttl":-1,"id":"native::1195357-64768","prev_id":"","timestamp":[418851269,1706006943],"FileStateOS":{"device":64768,"inode":1195357},"identifier_name":"native","source":"/var/ossec/logs/alerts/alerts.json","offset":0,"type":"log"}}
+{"op":"set","id":4}
+{"k":"filebeat::logs::native::1195357-64768","v":{"id":"native::1195357-64768","offset":0,"ttl":-1,"prev_id":"","source":"/var/ossec/logs/alerts/alerts.json","timestamp":[418851269,1706006943],"type":"log","FileStateOS":{"inode":1195357,"device":64768},"identifier_name":"native"}}
+{"op":"set","id":5}
+{"k":"filebeat::logs::native::1195598-64768","v":{"source":"/var/ossec/logs/alerts/alerts.json","type":"log","FileStateOS":{"inode":1195598,"device":64768},"id":"native::1195598-64768","prev_id":"","offset":0,"timestamp":[419520110,1706006943],"ttl":-1,"identifier_name":"native"}}
+{"op":"remove","id":6}
+{"k":"filebeat::logs::native::1195357-64768"}
+{"op":"set","id":7}
+{"k":"filebeat::logs::native::1195598-64768","v":{"id":"native::1195598-64768","prev_id":"","offset":0,"timestamp":[419520110,1706006943],"type":"log","FileStateOS":{"inode":1195598,"device":64768},"source":"/var/ossec/logs/alerts/alerts.json","ttl":-1,"identifier_name":"native"}}
+{"op":"set","id":8}
+{"k":"filebeat::logs::native::1195598-64768","v":{"type":"log","ttl":-1,"FileStateOS":{"inode":1195598,"device":64768},"identifier_name":"native","id":"native::1195598-64768","prev_id":"","source":"/var/ossec/logs/alerts/alerts.json","offset":0,"timestamp":[419520110,1706006943]}}

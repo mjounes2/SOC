@@ -1,0 +1,128 @@
+
+<group name="iocs,">
+  <rule id="111000" level="0">
+    <decoded_as>ioc_builder</decoded_as>
+    <description>Grouping of IoC rules.</description>
+  </rule>
+
+  <rule id="111001" level="5">
+    <if_sid>111000</if_sid>
+    <field name="ioc_not_found">^True$</field>
+    <description>Suspicious IoC "$(ioc)" added to Firewall Fortigate Black List.</description>
+  </rule>
+
+  <rule id="111002" level="5" ignore="60">
+    <if_sid>111000</if_sid>
+    <field name="ioc_not_found">^False$</field>
+    <description>Suspicious IoC "$(ioc)" already found in Threat Feed.</description>
+  </rule>
+</group>
+
+<group name="attack,">
+  <rule id="100100" level="10">
+    <if_group>web|attack|attacks</if_group>
+    <list field="srcip" lookup="address_match_key">etc/lists/blacklist-alienvault</list>
+    <description>IP address found in AlienVault reputation database.</description>
+  </rule>
+</group>
+
+<group name="syscheck,pci_dss_11.5,nist_800_53_SI.7,">
+    <!-- Rules for Linux systems -->
+    <rule id="100200" level="7">
+        <if_sid>550</if_sid>
+        <field name="file">/root</field>
+        <description>File modified in /root directory.</description>
+    </rule>
+    <rule id="100201" level="7">
+        <if_sid>554</if_sid>
+        <field name="file">/root</field>
+        <description>File added to /root directory.</description>
+    </rule>
+</group>
+
+<group name="virustotal,">
+  <rule id="100092" level="12">
+    <if_sid>657</if_sid>
+    <match>Successfully removed threat</match>
+    <description>$(parameters.program) removed threat located at $(parameters.alert.data.virustotal.source.file)</description>
+  </rule>
+</group>
+
+<!-- User Failed Authentication from Public IPv4 -->
+<group name="local,syslog,sshd,">
+  <rule id="100002" level="10">
+    <field name="abuseipdb.abuse_confidence_score" type="pcre2" negate="yes">^0$</field>
+    <description>IP with $(abuseipdb.abuse_confidence_score)% confidence of abuse connected to your network.</description>
+    <group>authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,</group>
+  </rule>
+
+  <rule id="100003" level="5">
+    <if_sid>5715</if_sid>
+    <match type="pcre2">\b(?!(10)|192\.168|172\.(2[0-9]|1[6-9]|3[0-1])|(25[6-9]|2[6-9][0-9]|[3-9][0-9][0-9]|99[1-9]))[0-9]{1,3}\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)</match>
+    <description>sshd: Authentication succeeded from a public IP address > $(srcip).</description>
+    <group>authentication_failed,authentication_success,pci_dss_10.2.4,pci_dss_10.2.5,</group>
+  </rule>
+
+  <rule id="100001" level="10">
+    <if_sid>5716</if_sid>
+    <match type="pcre2">\b(?!(10)|192\.168|172\.(2[0-9]|1[6-9]|3[0-1])|(25[6-9]|2[6-9][0-9]|[3-9][0-9][0-9]|99[1-9]))[0-9]{1,3}\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)</match>
+    <description>sshd: Authentication failed from a public IP address > $(srcip).</description>
+    <group>authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,</group>
+  </rule>
+  
+  <rule id="100004" level="10">
+    <field name="abuseipdb.source.rule" type="pcre2">^100002$</field>
+    <field name="abuseipdb.abuse_confidence_score" type="pcre2" negate="yes">^0$</field>
+    <description>AbuseIPDB: SSH Authentication failed from a public IP address > $(srcip) with $(abuseipdb.abuse_confidence_score)% confidence of abuse.</description>
+    <group>authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,</group>
+  </rule>
+
+  <rule id="100005" level="14">
+    <field name="abuseipdb.source.rule" type="pcre2">^100003$</field>
+    <field name="abuseipdb.abuse_confidence_score" type="pcre2" negate="yes">^0$</field>
+    <description>AbuseIPDB: SSH Authentication succeeded from a public IP address > $(srcip) with $(abuseipdb.abuse_confidence_score)% confidence of abuse.</description>
+    <group>authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,</group>
+  </rule>
+</group>
+
+<group name="security_event, windows,">
+
+  <!-- This rule detects when PsExec is launched remotely to perform lateral movement within the domain. The rule uses Sysmon events collected from the domain controller. -->
+  <rule id="110004" level="12">
+    <if_sid>61600</if_sid>
+    <field name="win.system.eventID" type="pcre2">17|18</field>
+    <field name="win.eventdata.PipeName" type="pcre2">\\PSEXESVC</field>
+    <options>no_full_log</options>
+    <description>PsExec service launched for possible lateral movement within the domain</description>
+  </rule>
+
+  <!-- This rule detects NTDS.dit file extraction using a sysmon event captured on the domain controller -->
+  <rule id="110006" level="12">
+    <if_group>sysmon_event1</if_group>
+    <field name="win.eventdata.commandLine" type="pcre2">NTDSUTIL</field>
+    <description>Possible NTDS.dit file extraction using ntdsutil.exe</description>
+  </rule>
+
+  <!-- This rule detects Pass-the-ash (PtH) attacks using windows security event 4624 on the compromised endpoint -->
+  <rule id="110007" level="12">
+    <if_sid>60103</if_sid>
+    <field name="win.system.eventID">^4624$</field>
+    <field name="win.eventdata.LogonProcessName" type="pcre2">seclogo</field>
+    <field name="win.eventdata.LogonType" type="pcre2">9</field>
+    <field name="win.eventdata.AuthenticationPackageName" type="pcre2">Negotiate</field>
+    <field name="win.eventdata.LogonGuid" type="pcre2">{00000000-0000-0000-0000-000000000000}</field>
+    <options>no_full_log</options>
+    <description>Possible Pass the hash attack</description>
+  </rule>
+  
+  <!-- This rule detects credential dumping when the command sekurlsa::logonpasswords is run on mimikatz -->
+  <rule id="110008" level="12">
+    <if_sid>61612</if_sid>
+    <field name="win.eventdata.TargetImage" type="pcre2">(?i)\\\\system32\\\\lsass.exe</field>
+    <field name="win.eventdata.GrantedAccess" type="pcre2">(?i)0x1010</field>
+    <description>Possible credential dumping using mimikatz</description>
+  </rule>
+  
+</group>
+
+

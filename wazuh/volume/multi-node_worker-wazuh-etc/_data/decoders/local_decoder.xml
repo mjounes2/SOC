@@ -1,0 +1,63 @@
+<!-- Local Decoders -->
+
+<!-- Modify it at your will. -->
+<!-- Copyright (C) 2015, Wazuh Inc. -->
+
+<!--
+  - Allowed static fields:
+  - location   - where the log came from (only on FTS)
+  - srcuser    - extracts the source username
+  - dstuser    - extracts the destination (target) username
+  - user       - an alias to dstuser (only one of the two can be used)
+  - srcip      - source ip
+  - dstip      - dst ip
+  - srcport    - source port
+  - dstport    - destination port
+  - protocol   - protocol
+  - id         - event id
+  - url        - url of the event
+  - action     - event action (deny, drop, accept, etc)
+  - status     - event status (success, failure, etc)
+  - extra_data - Any extra data
+-->
+
+<decoder name="local_decoder_example">
+    <program_name>local_decoder_example</program_name>
+</decoder>
+
+<decoder name="json">
+  <prematch>^{\s*"</prematch>
+</decoder>
+
+<decoder name="json_child">
+  <parent>json</parent>
+  <regex type="pcre2">"src_ip":"([^"]+)"</regex>
+  <order>srcip</order>
+</decoder>
+
+<decoder name="json_child">
+  <parent>json</parent>
+  <plugin_decoder>JSON_Decoder</plugin_decoder>
+</decoder>
+
+<decoder name="ar_log_fields">
+    <parent>ar_log</parent>
+    <regex offset="after_parent">^(\S+) Removed positive threat located in (\S+)</regex>
+    <order>script_name, path</order>
+</decoder>
+
+<decoder name="yara_decoder">
+  <prematch>wazuh-yara:</prematch>
+</decoder>
+
+<decoder name="yara_decoder1">
+  <parent>yara_decoder</parent>
+  <regex>wazuh-yara: (\S+) - Scan result: (\S+) (\S+)</regex>
+  <order>log_type, yara_rule, yara_scanned_file</order>
+</decoder>
+
+<decoder name="ioc_builder">
+  <prematch>^\w\w\w\s\w+\s+\d+\s\d\d:\d\d:\d\d\s+\d+\s\S+\sioc-data:</prematch>
+  <regex offset="after_prematch">^(\S+)\|(\S+)\|(\S+)</regex>
+  <order>ioc_not_found, ioc, ioc_file</order>
+</decoder>
