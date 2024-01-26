@@ -1,0 +1,78 @@
+2024 Jan 26 11:03:29 wazuh->df -P ossec: output: 'df -P': Filesystem                        1024-blocks     Used Available Capacity Mounted on
+2024 Jan 26 11:03:29 wazuh->df -P ossec: output: 'df -P': overlay                              49713728 12675584  34480400      27% /
+2024 Jan 26 11:03:29 wazuh->df -P ossec: output: 'df -P': tmpfs                                   65536        0     65536       0% /dev
+2024 Jan 26 11:03:29 wazuh->df -P ossec: output: 'df -P': tmpfs                                 8190424        0   8190424       0% /sys/fs/cgroup
+2024 Jan 26 11:03:29 wazuh->df -P ossec: output: 'df -P': shm                                     65536       80     65456       1% /dev/shm
+2024 Jan 26 11:03:29 wazuh->df -P ossec: output: 'df -P': /dev/mapper/ubuntu--vg-ubuntu--lv    49713728 12675584  34480400      27% /data
+2024 Jan 26 11:03:29 wazuh->df -P ossec: output: 'df -P': tmpfs                                 8190424        0   8190424       0% /proc/acpi
+2024 Jan 26 11:03:29 wazuh->df -P ossec: output: 'df -P': tmpfs                                 8190424        0   8190424       0% /proc/scsi
+2024 Jan 26 11:03:29 wazuh->df -P ossec: output: 'df -P': tmpfs                                 8190424        0   8190424       0% /sys/firmware
+2024 Jan 26 11:03:29 wazuh->last -n 20 ossec: output: 'last -n 20':
+wtmp begins Wed Jan 24 12:29:51 2024
+2024 Jan 26 11:03:29 wazuh->rootcheck Starting rootcheck scan.
+2024 Jan 26 11:03:29 wazuh->rootcheck File '/etc/filebeat/fields.yml' is owned by root and has written permissions to anyone.
+2024 Jan 26 11:03:29 wazuh->rootcheck File '/etc/filebeat/wazuh-template.json' is owned by root and has written permissions to anyone.
+2024 Jan 26 11:03:29 wazuh->rootcheck File '/etc/filebeat/filebeat.reference.yml' is owned by root and has written permissions to anyone.
+2024 Jan 26 11:03:29 wazuh->rootcheck File '/etc/filebeat/modules.d/apache.yml.disabled' is owned by root and has written permissions to anyone.
+2024 Jan 26 11:03:29 wazuh->rootcheck File '/etc/filebeat/modules.d/icinga.yml.disabled' is owned by root and has written permissions to anyone.
+2024 Jan 26 11:03:29 wazuh->rootcheck File '/etc/filebeat/modules.d/nats.yml.disabled' is owned by root and has written permissions to anyone.
+2024 Jan 26 11:03:29 wazuh->rootcheck File '/etc/filebeat/modules.d/system.yml.disabled' is owned by root and has written permissions to anyone.
+2024 Jan 26 11:03:29 wazuh->rootcheck File '/etc/filebeat/modules.d/postgresql.yml.disabled' is owned by root and has written permissions to anyone.
+2024 Jan 26 11:03:29 wazuh->rootcheck File '/etc/filebeat/modules.d/traefik.yml.disabled' is owned by root and has written permissions to anyone.
+2024 Jan 26 11:03:29 wazuh->rootcheck File '/etc/filebeat/modules.d/mysql.yml.disabled' is owned by root and has written permissions to anyone.
+2024 Jan 26 11:03:29 wazuh->rootcheck File '/etc/filebeat/modules.d/mongodb.yml.disabled' is owned by root and has written permissions to anyone.
+2024 Jan 26 11:03:29 wazuh->rootcheck File '/etc/filebeat/modules.d/kibana.yml.disabled' is owned by root and has written permissions to anyone.
+2024 Jan 26 11:03:29 wazuh->rootcheck File '/etc/filebeat/modules.d/osquery.yml.disabled' is owned by root and has written permissions to anyone.
+2024 Jan 26 11:03:29 wazuh->rootcheck File '/etc/filebeat/modules.d/kafka.yml.disabled' is owned by root and has written permissions to anyone.
+2024 Jan 26 11:03:29 wazuh->rootcheck File '/etc/filebeat/modules.d/santa.yml.disabled' is owned by root and has written permissions to anyone.
+2024 Jan 26 11:03:29 wazuh->rootcheck File '/etc/filebeat/modules.d/haproxy.yml.disabled' is owned by root and has written permissions to anyone.
+2024 Jan 26 11:03:29 wazuh->rootcheck File '/etc/filebeat/modules.d/nginx.yml.disabled' is owned by root and has written permissions to anyone.
+2024 Jan 26 11:03:29 wazuh->rootcheck File '/etc/filebeat/modules.d/auditd.yml.disabled' is owned by root and has written permissions to anyone.
+2024 Jan 26 11:03:29 wazuh->rootcheck File '/etc/filebeat/modules.d/redis.yml.disabled' is owned by root and has written permissions to anyone.
+2024 Jan 26 11:03:29 wazuh->rootcheck File '/etc/filebeat/modules.d/logstash.yml.disabled' is owned by root and has written permissions to anyone.
+2024 Jan 26 11:03:29 wazuh->rootcheck File '/etc/filebeat/modules.d/elasticsearch.yml.disabled' is owned by root and has written permissions to anyone.
+2024 Jan 26 11:03:29 wazuh->rootcheck File '/etc/filebeat/modules.d/iis.yml.disabled' is owned by root and has written permissions to anyone.
+2024 Jan 26 11:03:29 wazuh->rootcheck File '/var/lib/filebeat/meta.json' is owned by root and has written permissions to anyone.
+2024 Jan 26 11:03:33 wazuh->sca {"type":"summary","scan_id":1533577798,"name":"CIS Ubuntu Linux 20.04 LTS Benchmark v2.0.0","policy_id":"cis_ubuntu20-04","file":"cis_ubuntu20-04.yml","description":"This document provides prescriptive guidance for establishing a secure configuration posture for Ubuntu Linux 20.04 LTS.","references":"https://www.cisecurity.org/cis-benchmarks/","passed":56,"failed":75,"invalid":79,"total_checks":210,"score":42.748088836669922,"start_time":1706267008,"end_time":1706267010,"hash":"96dd8745a44e276e6080712dc520c974a73ab16e9f6703e06e77ef7f297d2762","hash_file":"37d4bc67c13eaf70f4d0650eafa236d5d56c2b82b6957ac2e3bb1f41ee167682","first_scan":1}
+2024 Jan 26 11:03:33 wazuh->sca {"type":"policies","policies":["cis_ubuntu20-04"]}
+2024 Jan 26 11:03:37 wazuh->wazuh-monitord ossec: Manager started.
+2024 Jan 26 11:03:45 wazuh->rootcheck Ending rootcheck scan.
+2024 Jan 26 11:04:43 wazuh->rootcheck Starting rootcheck scan.
+2024 Jan 26 11:04:44 wazuh->rootcheck File '/etc/filebeat/fields.yml' is owned by root and has written permissions to anyone.
+2024 Jan 26 11:04:44 wazuh->rootcheck File '/etc/filebeat/wazuh-template.json' is owned by root and has written permissions to anyone.
+2024 Jan 26 11:04:44 wazuh->rootcheck File '/etc/filebeat/filebeat.reference.yml' is owned by root and has written permissions to anyone.
+2024 Jan 26 11:04:44 wazuh->rootcheck File '/etc/filebeat/modules.d/apache.yml.disabled' is owned by root and has written permissions to anyone.
+2024 Jan 26 11:04:44 wazuh->rootcheck File '/etc/filebeat/modules.d/icinga.yml.disabled' is owned by root and has written permissions to anyone.
+2024 Jan 26 11:04:44 wazuh->rootcheck File '/etc/filebeat/modules.d/nats.yml.disabled' is owned by root and has written permissions to anyone.
+2024 Jan 26 11:04:44 wazuh->rootcheck File '/etc/filebeat/modules.d/system.yml.disabled' is owned by root and has written permissions to anyone.
+2024 Jan 26 11:04:44 wazuh->rootcheck File '/etc/filebeat/modules.d/postgresql.yml.disabled' is owned by root and has written permissions to anyone.
+2024 Jan 26 11:04:44 wazuh->rootcheck File '/etc/filebeat/modules.d/traefik.yml.disabled' is owned by root and has written permissions to anyone.
+2024 Jan 26 11:04:44 wazuh->rootcheck File '/etc/filebeat/modules.d/mysql.yml.disabled' is owned by root and has written permissions to anyone.
+2024 Jan 26 11:04:44 wazuh->rootcheck File '/etc/filebeat/modules.d/mongodb.yml.disabled' is owned by root and has written permissions to anyone.
+2024 Jan 26 11:04:44 wazuh->rootcheck File '/etc/filebeat/modules.d/kibana.yml.disabled' is owned by root and has written permissions to anyone.
+2024 Jan 26 11:04:44 wazuh->rootcheck File '/etc/filebeat/modules.d/osquery.yml.disabled' is owned by root and has written permissions to anyone.
+2024 Jan 26 11:04:44 wazuh->rootcheck File '/etc/filebeat/modules.d/kafka.yml.disabled' is owned by root and has written permissions to anyone.
+2024 Jan 26 11:04:44 wazuh->rootcheck File '/etc/filebeat/modules.d/santa.yml.disabled' is owned by root and has written permissions to anyone.
+2024 Jan 26 11:04:44 wazuh->rootcheck File '/etc/filebeat/modules.d/haproxy.yml.disabled' is owned by root and has written permissions to anyone.
+2024 Jan 26 11:04:44 wazuh->rootcheck File '/etc/filebeat/modules.d/nginx.yml.disabled' is owned by root and has written permissions to anyone.
+2024 Jan 26 11:04:44 wazuh->rootcheck File '/etc/filebeat/modules.d/auditd.yml.disabled' is owned by root and has written permissions to anyone.
+2024 Jan 26 11:04:44 wazuh->rootcheck File '/etc/filebeat/modules.d/redis.yml.disabled' is owned by root and has written permissions to anyone.
+2024 Jan 26 11:04:44 wazuh->rootcheck File '/etc/filebeat/modules.d/logstash.yml.disabled' is owned by root and has written permissions to anyone.
+2024 Jan 26 11:04:44 wazuh->rootcheck File '/etc/filebeat/modules.d/elasticsearch.yml.disabled' is owned by root and has written permissions to anyone.
+2024 Jan 26 11:04:44 wazuh->rootcheck File '/etc/filebeat/modules.d/iis.yml.disabled' is owned by root and has written permissions to anyone.
+2024 Jan 26 11:04:44 wazuh->rootcheck File '/var/lib/filebeat/meta.json' is owned by root and has written permissions to anyone.
+2024 Jan 26 11:04:44 wazuh->df -P ossec: output: 'df -P': overlay                              49713728 12675876  34480108      27% /
+2024 Jan 26 11:04:44 wazuh->df -P ossec: output: 'df -P': tmpfs                                 8190424        0   8190424       0% /sys/fs/cgroup
+2024 Jan 26 11:04:44 wazuh->df -P ossec: output: 'df -P': tmpfs                                   65536        0     65536       0% /dev
+2024 Jan 26 11:04:44 wazuh->df -P ossec: output: 'df -P': shm                                     65536       80     65456       1% /dev/shm
+2024 Jan 26 11:04:44 wazuh->df -P ossec: output: 'df -P': Filesystem                        1024-blocks     Used Available Capacity Mounted on
+2024 Jan 26 11:04:44 wazuh->df -P ossec: output: 'df -P': tmpfs                                 8190424        0   8190424       0% /proc/acpi
+2024 Jan 26 11:04:44 wazuh->df -P ossec: output: 'df -P': /dev/mapper/ubuntu--vg-ubuntu--lv    49713728 12675876  34480108      27% /data
+2024 Jan 26 11:04:44 wazuh->df -P ossec: output: 'df -P': tmpfs                                 8190424        0   8190424       0% /proc/scsi
+2024 Jan 26 11:04:44 wazuh->df -P ossec: output: 'df -P': tmpfs                                 8190424        0   8190424       0% /sys/firmware
+2024 Jan 26 11:04:44 wazuh->last -n 20 ossec: output: 'last -n 20':
+wtmp begins Wed Jan 24 12:29:51 2024
+2024 Jan 26 11:04:51 wazuh->sca {"type":"summary","scan_id":1806634659,"name":"CIS Ubuntu Linux 20.04 LTS Benchmark v2.0.0","policy_id":"cis_ubuntu20-04","file":"cis_ubuntu20-04.yml","description":"This document provides prescriptive guidance for establishing a secure configuration posture for Ubuntu Linux 20.04 LTS.","references":"https://www.cisecurity.org/cis-benchmarks/","passed":56,"failed":75,"invalid":79,"total_checks":210,"score":42.748088836669922,"start_time":1706267084,"end_time":1706267088,"hash":"96dd8745a44e276e6080712dc520c974a73ab16e9f6703e06e77ef7f297d2762","hash_file":"37d4bc67c13eaf70f4d0650eafa236d5d56c2b82b6957ac2e3bb1f41ee167682","first_scan":1}
+2024 Jan 26 11:04:51 wazuh->sca {"type":"policies","policies":["cis_ubuntu20-04"]}
+2024 Jan 26 11:04:53 wazuh->wazuh-monitord ossec: Manager started.
+2024 Jan 26 11:05:01 wazuh->rootcheck Ending rootcheck scan.

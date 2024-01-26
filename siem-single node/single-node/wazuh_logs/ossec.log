@@ -1,0 +1,404 @@
+2024/01/26 10:34:29 wazuh-monitord: INFO: Starting new log after rotation.
+2024/01/26 10:34:29 wazuh-monitord: INFO: No previous md5 checksum found: 'logs/archives/2024/Jan/ossec-archive-25.log.sum'. Starting over.
+2024/01/26 10:34:29 wazuh-monitord: INFO: No previous sha1 checksum found: 'logs/archives/2024/Jan/ossec-archive-25.log.sum'. Starting over.
+2024/01/26 10:34:29 wazuh-monitord: INFO: No previous sha256 checksum found: 'logs/archives/2024/Jan/ossec-archive-25.log.sum'. Starting over.
+2024/01/26 10:34:29 wazuh-monitord: INFO: No previous md5 checksum found: 'logs/archives/2024/Jan/ossec-archive-25.json.sum'. Starting over.
+2024/01/26 10:34:29 wazuh-monitord: INFO: No previous sha1 checksum found: 'logs/archives/2024/Jan/ossec-archive-25.json.sum'. Starting over.
+2024/01/26 10:34:29 wazuh-monitord: INFO: No previous sha256 checksum found: 'logs/archives/2024/Jan/ossec-archive-25.json.sum'. Starting over.
+2024/01/26 10:34:29 wazuh-monitord: INFO: No previous md5 checksum found: 'logs/alerts/2024/Jan/ossec-alerts-25.log.sum'. Starting over.
+2024/01/26 10:34:29 wazuh-monitord: INFO: No previous sha1 checksum found: 'logs/alerts/2024/Jan/ossec-alerts-25.log.sum'. Starting over.
+2024/01/26 10:34:29 wazuh-monitord: INFO: No previous sha256 checksum found: 'logs/alerts/2024/Jan/ossec-alerts-25.log.sum'. Starting over.
+2024/01/26 10:34:29 wazuh-monitord: INFO: No previous md5 checksum found: 'logs/alerts/2024/Jan/ossec-alerts-25.json.sum'. Starting over.
+2024/01/26 10:34:29 wazuh-monitord: INFO: No previous sha1 checksum found: 'logs/alerts/2024/Jan/ossec-alerts-25.json.sum'. Starting over.
+2024/01/26 10:34:29 wazuh-monitord: INFO: No previous sha256 checksum found: 'logs/alerts/2024/Jan/ossec-alerts-25.json.sum'. Starting over.
+2024/01/26 10:34:29 wazuh-monitord: INFO: No previous md5 checksum found: 'logs/firewall/2024/Jan/ossec-firewall-25.log.sum'. Starting over.
+2024/01/26 10:34:29 wazuh-monitord: INFO: No previous sha1 checksum found: 'logs/firewall/2024/Jan/ossec-firewall-25.log.sum'. Starting over.
+2024/01/26 10:34:29 wazuh-monitord: INFO: No previous sha256 checksum found: 'logs/firewall/2024/Jan/ossec-firewall-25.log.sum'. Starting over.
+2024/01/26 10:34:30 rootcheck: INFO: Ending rootcheck scan.
+2024/01/26 10:34:32 sca: INFO: Evaluation finished for policy '/var/ossec/ruleset/sca/cis_ubuntu20-04.yml'
+2024/01/26 10:34:32 sca: INFO: Security Configuration Assessment scan finished. Duration: 5 seconds.
+2024/01/26 10:46:14 wazuh-authd: INFO: (1225): SIGNAL [(1)-(Hangup)] Received. Exit Cleaning...
+2024/01/26 10:46:14 wazuh-execd: INFO: (1314): Shutdown received. Deleting responses.
+2024/01/26 10:46:14 wazuh-db: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2024/01/26 10:46:14 wazuh-execd: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2024/01/26 10:46:14 wazuh-db: INFO: (1225): SIGNAL [(1)-(Hangup)] Received. Exit Cleaning...
+2024/01/26 10:46:14 wazuh-monitord: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2024/01/26 10:46:14 wazuh-analysisd: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2024/01/26 10:46:14 wazuh-syscheckd: INFO: (1756): Shutdown received. Releasing resources.
+2024/01/26 10:46:14 wazuh-logcollector: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2024/01/26 10:46:14 wazuh-syscheckd: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2024/01/26 10:46:14 wazuh-remoted: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2024/01/26 10:46:14 wazuh-authd: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2024/01/26 10:46:15 wazuh-authd: INFO: Exiting...
+2024/01/26 10:46:23 wazuh-analysisd: WARNING: (7616): List 'etc/lists/blacklist-alienvault' could not be loaded. Rule '100100' will be ignored.
+2024/01/26 10:46:23 wazuh-analysisd: WARNING: (7616): List 'etc/lists/unwanted-software' could not be loaded. Rule '100500' will be ignored.
+2024/01/26 10:46:25 wazuh-testrule: WARNING: (7616): List 'etc/lists/blacklist-alienvault' could not be loaded. Rule '100100' will be ignored.
+2024/01/26 10:46:25 wazuh-testrule: WARNING: (7616): List 'etc/lists/unwanted-software' could not be loaded. Rule '100500' will be ignored.
+2024/01/26 10:46:26 wazuh-csyslogd: INFO: Remote syslog server not configured. Clean exit.
+2024/01/26 10:46:26 wazuh-dbd: INFO: Database not configured. Clean exit.
+2024/01/26 10:46:26 wazuh-integratord: INFO: Remote integrations not configured. Clean exit.
+2024/01/26 10:46:26 wazuh-agentlessd: INFO: Not configured. Exiting.
+2024/01/26 10:46:26 wazuh-authd: INFO: Started (pid: 375).
+2024/01/26 10:46:26 wazuh-authd: INFO: Accepting connections on port 1515. No password required.
+2024/01/26 10:46:26 wazuh-authd: INFO: Setting network timeout to 1.000000 sec.
+2024/01/26 10:46:26 wazuh-db: INFO: Started (pid: 389).
+2024/01/26 10:46:27 wazuh-execd: INFO: Started (pid: 414).
+2024/01/26 10:46:29 wazuh-analysisd: WARNING: (7616): List 'etc/lists/blacklist-alienvault' could not be loaded. Rule '100100' will be ignored.
+2024/01/26 10:46:29 wazuh-analysisd: WARNING: (7616): List 'etc/lists/unwanted-software' could not be loaded. Rule '100500' will be ignored.
+2024/01/26 10:46:29 wazuh-analysisd: INFO: Total rules enabled: '6807'
+2024/01/26 10:46:29 wazuh-analysisd: INFO: Started (pid: 429).
+2024/01/26 10:46:29 wazuh-analysisd: INFO: EPS limit disabled
+2024/01/26 10:46:29 wazuh-analysisd: INFO: (7200): Logtest started
+2024/01/26 10:46:29 wazuh-syscheckd: INFO: Started (pid: 491).
+2024/01/26 10:46:29 wazuh-syscheckd: INFO: (6003): Monitoring path: '/bin', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2024/01/26 10:46:29 wazuh-syscheckd: INFO: (6003): Monitoring path: '/boot', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2024/01/26 10:46:29 wazuh-syscheckd: INFO: (6003): Monitoring path: '/etc', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2024/01/26 10:46:29 wazuh-syscheckd: INFO: (6003): Monitoring path: '/sbin', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2024/01/26 10:46:29 wazuh-syscheckd: INFO: (6003): Monitoring path: '/usr/bin', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2024/01/26 10:46:29 wazuh-syscheckd: INFO: (6003): Monitoring path: '/usr/sbin', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2024/01/26 10:46:29 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/mtab'
+2024/01/26 10:46:29 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/hosts.deny'
+2024/01/26 10:46:29 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/mail/statistics'
+2024/01/26 10:46:29 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/random-seed'
+2024/01/26 10:46:29 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/random.seed'
+2024/01/26 10:46:29 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/adjtime'
+2024/01/26 10:46:29 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/httpd/logs'
+2024/01/26 10:46:29 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/utmpx'
+2024/01/26 10:46:29 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/wtmpx'
+2024/01/26 10:46:29 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/cups/certs'
+2024/01/26 10:46:29 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/dumpdates'
+2024/01/26 10:46:29 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/svc/volatile'
+2024/01/26 10:46:29 wazuh-syscheckd: INFO: (6207): Ignore 'file' sregex '.log$|.swp$'
+2024/01/26 10:46:29 wazuh-syscheckd: INFO: (6004): No diff for file: '/etc/ssl/private.key'
+2024/01/26 10:46:29 wazuh-syscheckd: INFO: (6000): Starting daemon...
+2024/01/26 10:46:29 wazuh-syscheckd: INFO: (6010): File integrity monitoring scan frequency: 43200 seconds
+2024/01/26 10:46:29 wazuh-syscheckd: INFO: (6008): File integrity monitoring scan started.
+2024/01/26 10:46:29 rootcheck: INFO: Starting rootcheck scan.
+2024/01/26 10:46:29 wazuh-remoted: INFO: Started (pid: 507). Listening on port 1514/TCP (secure).
+2024/01/26 10:46:29 wazuh-remoted: INFO: (1410): Reading authentication keys file.
+2024/01/26 10:46:30 wazuh-syscheckd: INFO: (6009): File integrity monitoring scan ended.
+2024/01/26 10:46:30 wazuh-syscheckd: INFO: FIM sync module started.
+2024/01/26 10:46:30 wazuh-logcollector: INFO: Monitoring output of command(360): df -P
+2024/01/26 10:46:30 wazuh-logcollector: INFO: Monitoring full output of command(360): netstat -tulpn | sed 's/\([[:alnum:]]\+\)\ \+[[:digit:]]\+\ \+[[:digit:]]\+\ \+\(.*\):\([[:digit:]]*\)\ \+\([0-9\.\:\*]\+\).\+\ \([[:digit:]]*\/[[:alnum:]\-]*\).*/\1 \2 == \3 == \4 \5/' | sort -k 4 -g | sed 's/ == \(.*\) ==/:\1/' | sed 1,2d
+2024/01/26 10:46:30 wazuh-logcollector: INFO: Monitoring full output of command(360): last -n 20
+2024/01/26 10:46:30 wazuh-logcollector: INFO: (1950): Analyzing file: '/var/ossec/logs/active-responses.log'.
+2024/01/26 10:46:30 wazuh-logcollector: INFO: Started (pid: 542).
+2024/01/26 10:46:31 wazuh-monitord: INFO: Started (pid: 590).
+2024/01/26 10:46:31 wazuh-modulesd: INFO: Started (pid: 606).
+2024/01/26 10:46:31 wazuh-modulesd:agent-upgrade: INFO: (8153): Module Agent Upgrade started.
+2024/01/26 10:46:31 wazuh-modulesd:download: INFO: Module started.
+2024/01/26 10:46:31 wazuh-modulesd:database: INFO: Module started.
+2024/01/26 10:46:31 wazuh-modulesd:ciscat: INFO: Module disabled. Exiting...
+2024/01/26 10:46:31 wazuh-modulesd:osquery: INFO: Module disabled. Exiting...
+2024/01/26 10:46:31 wazuh-modulesd:task-manager: INFO: (8200): Module Task Manager started.
+2024/01/26 10:46:31 wazuh-modulesd:control: INFO: Starting control thread.
+2024/01/26 10:46:31 sca: INFO: Module started.
+2024/01/26 10:46:31 sca: INFO: Loaded policy '/var/ossec/ruleset/sca/cis_ubuntu20-04.yml'
+2024/01/26 10:46:31 sca: INFO: Starting Security Configuration Assessment scan.
+2024/01/26 10:46:31 wazuh-modulesd:syscollector: INFO: Module started.
+2024/01/26 10:46:31 wazuh-modulesd:syscollector: INFO: Starting evaluation.
+2024/01/26 10:46:31 wazuh-modulesd:syscollector: INFO: Evaluation finished.
+2024/01/26 10:46:31 sca: INFO: Starting evaluation of policy: '/var/ossec/ruleset/sca/cis_ubuntu20-04.yml'
+2024/01/26 10:46:34 wazuh-db: INFO: (1225): SIGNAL [(1)-(Hangup)] Received. Exit Cleaning...
+2024/01/26 10:46:34 wazuh-db: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2024/01/26 10:46:34 wazuh-monitord: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2024/01/26 10:46:34 wazuh-execd: INFO: (1314): Shutdown received. Deleting responses.
+2024/01/26 10:46:34 wazuh-execd: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2024/01/26 10:46:34 wazuh-logcollector: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2024/01/26 10:46:34 wazuh-analysisd: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2024/01/26 10:46:34 wazuh-authd: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2024/01/26 10:46:34 wazuh-authd: INFO: (1225): SIGNAL [(1)-(Hangup)] Received. Exit Cleaning...
+2024/01/26 10:46:34 wazuh-syscheckd: INFO: (1756): Shutdown received. Releasing resources.
+2024/01/26 10:46:34 wazuh-remoted: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2024/01/26 10:46:35 wazuh-authd: INFO: Exiting...
+2024/01/26 10:46:35 wazuh-syscheckd: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2024/01/26 10:46:45 wazuh-analysisd: WARNING: (7616): List 'etc/lists/blacklist-alienvault' could not be loaded. Rule '100100' will be ignored.
+2024/01/26 10:46:45 wazuh-analysisd: WARNING: (7616): List 'etc/lists/unwanted-software' could not be loaded. Rule '100500' will be ignored.
+2024/01/26 10:46:48 wazuh-testrule: WARNING: (7616): List 'etc/lists/blacklist-alienvault' could not be loaded. Rule '100100' will be ignored.
+2024/01/26 10:46:48 wazuh-testrule: WARNING: (7616): List 'etc/lists/unwanted-software' could not be loaded. Rule '100500' will be ignored.
+2024/01/26 10:46:49 wazuh-csyslogd: INFO: Remote syslog server not configured. Clean exit.
+2024/01/26 10:46:49 wazuh-dbd: INFO: Database not configured. Clean exit.
+2024/01/26 10:46:49 wazuh-integratord: INFO: Remote integrations not configured. Clean exit.
+2024/01/26 10:46:49 wazuh-agentlessd: INFO: Not configured. Exiting.
+2024/01/26 10:46:49 wazuh-authd: INFO: Started (pid: 379).
+2024/01/26 10:46:49 wazuh-authd: INFO: Accepting connections on port 1515. No password required.
+2024/01/26 10:46:49 wazuh-authd: INFO: Setting network timeout to 1.000000 sec.
+2024/01/26 10:46:51 wazuh-db: INFO: Started (pid: 397).
+2024/01/26 10:46:52 wazuh-execd: INFO: Started (pid: 422).
+2024/01/26 10:46:54 wazuh-analysisd: WARNING: (7616): List 'etc/lists/blacklist-alienvault' could not be loaded. Rule '100100' will be ignored.
+2024/01/26 10:46:54 wazuh-analysisd: WARNING: (7616): List 'etc/lists/unwanted-software' could not be loaded. Rule '100500' will be ignored.
+2024/01/26 10:46:54 wazuh-analysisd: INFO: Total rules enabled: '6807'
+2024/01/26 10:46:54 wazuh-analysisd: INFO: Started (pid: 438).
+2024/01/26 10:46:54 wazuh-syscheckd: INFO: Started (pid: 452).
+2024/01/26 10:46:54 wazuh-syscheckd: INFO: (6003): Monitoring path: '/bin', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2024/01/26 10:46:54 wazuh-syscheckd: INFO: (6003): Monitoring path: '/boot', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2024/01/26 10:46:54 wazuh-syscheckd: INFO: (6003): Monitoring path: '/etc', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2024/01/26 10:46:54 wazuh-syscheckd: INFO: (6003): Monitoring path: '/sbin', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2024/01/26 10:46:54 wazuh-syscheckd: INFO: (6003): Monitoring path: '/usr/bin', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2024/01/26 10:46:54 wazuh-syscheckd: INFO: (6003): Monitoring path: '/usr/sbin', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2024/01/26 10:46:54 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/mtab'
+2024/01/26 10:46:54 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/hosts.deny'
+2024/01/26 10:46:54 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/mail/statistics'
+2024/01/26 10:46:54 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/random-seed'
+2024/01/26 10:46:54 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/random.seed'
+2024/01/26 10:46:54 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/adjtime'
+2024/01/26 10:46:54 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/httpd/logs'
+2024/01/26 10:46:54 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/utmpx'
+2024/01/26 10:46:54 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/wtmpx'
+2024/01/26 10:46:54 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/cups/certs'
+2024/01/26 10:46:54 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/dumpdates'
+2024/01/26 10:46:54 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/svc/volatile'
+2024/01/26 10:46:54 wazuh-syscheckd: INFO: (6207): Ignore 'file' sregex '.log$|.swp$'
+2024/01/26 10:46:54 wazuh-syscheckd: INFO: (6004): No diff for file: '/etc/ssl/private.key'
+2024/01/26 10:46:54 wazuh-syscheckd: INFO: (6000): Starting daemon...
+2024/01/26 10:46:54 wazuh-syscheckd: INFO: (6010): File integrity monitoring scan frequency: 43200 seconds
+2024/01/26 10:46:54 wazuh-syscheckd: INFO: (6008): File integrity monitoring scan started.
+2024/01/26 10:46:54 rootcheck: INFO: Starting rootcheck scan.
+2024/01/26 10:46:54 wazuh-analysisd: INFO: EPS limit disabled
+2024/01/26 10:46:54 wazuh-analysisd: INFO: (7200): Logtest started
+2024/01/26 10:46:55 wazuh-remoted: INFO: Started (pid: 517). Listening on port 1514/TCP (secure).
+2024/01/26 10:46:55 wazuh-remoted: INFO: (1410): Reading authentication keys file.
+2024/01/26 10:46:56 wazuh-logcollector: INFO: Monitoring output of command(360): df -P
+2024/01/26 10:46:56 wazuh-logcollector: INFO: Monitoring full output of command(360): netstat -tulpn | sed 's/\([[:alnum:]]\+\)\ \+[[:digit:]]\+\ \+[[:digit:]]\+\ \+\(.*\):\([[:digit:]]*\)\ \+\([0-9\.\:\*]\+\).\+\ \([[:digit:]]*\/[[:alnum:]\-]*\).*/\1 \2 == \3 == \4 \5/' | sort -k 4 -g | sed 's/ == \(.*\) ==/:\1/' | sed 1,2d
+2024/01/26 10:46:56 wazuh-logcollector: INFO: Monitoring full output of command(360): last -n 20
+2024/01/26 10:46:56 wazuh-logcollector: INFO: (1950): Analyzing file: '/var/ossec/logs/active-responses.log'.
+2024/01/26 10:46:56 wazuh-logcollector: INFO: Started (pid: 550).
+2024/01/26 10:46:57 wazuh-syscheckd: INFO: (6009): File integrity monitoring scan ended.
+2024/01/26 10:46:57 wazuh-syscheckd: INFO: FIM sync module started.
+2024/01/26 10:46:57 wazuh-monitord: INFO: Started (pid: 573).
+2024/01/26 10:46:58 wazuh-modulesd: INFO: Started (pid: 627).
+2024/01/26 10:46:58 sca: INFO: Module started.
+2024/01/26 10:46:58 sca: INFO: Loaded policy '/var/ossec/ruleset/sca/cis_ubuntu20-04.yml'
+2024/01/26 10:46:58 sca: INFO: Starting Security Configuration Assessment scan.
+2024/01/26 10:46:58 wazuh-modulesd:database: INFO: Module started.
+2024/01/26 10:46:58 wazuh-modulesd:download: INFO: Module started.
+2024/01/26 10:46:58 wazuh-modulesd:control: INFO: Starting control thread.
+2024/01/26 10:46:58 wazuh-modulesd:osquery: INFO: Module disabled. Exiting...
+2024/01/26 10:46:58 wazuh-modulesd:ciscat: INFO: Module disabled. Exiting...
+2024/01/26 10:46:58 wazuh-modulesd:task-manager: INFO: (8200): Module Task Manager started.
+2024/01/26 10:46:58 wazuh-modulesd:agent-upgrade: INFO: (8153): Module Agent Upgrade started.
+2024/01/26 10:46:58 wazuh-modulesd:syscollector: INFO: Module started.
+2024/01/26 10:46:58 wazuh-modulesd:syscollector: INFO: Starting evaluation.
+2024/01/26 10:46:58 wazuh-modulesd:syscollector: INFO: Evaluation finished.
+2024/01/26 10:46:58 sca: INFO: Starting evaluation of policy: '/var/ossec/ruleset/sca/cis_ubuntu20-04.yml'
+2024/01/26 10:47:05 sca: INFO: Evaluation finished for policy '/var/ossec/ruleset/sca/cis_ubuntu20-04.yml'
+2024/01/26 10:47:05 sca: INFO: Security Configuration Assessment scan finished. Duration: 7 seconds.
+2024/01/26 10:47:15 rootcheck: INFO: Ending rootcheck scan.
+2024/01/26 11:03:16 wazuh-analysisd: WARNING: (7616): List 'etc/lists/blacklist-alienvault' could not be loaded. Rule '100100' will be ignored.
+2024/01/26 11:03:16 wazuh-analysisd: WARNING: (7616): List 'etc/lists/unwanted-software' could not be loaded. Rule '100500' will be ignored.
+2024/01/26 11:03:17 wazuh-testrule: WARNING: (7616): List 'etc/lists/blacklist-alienvault' could not be loaded. Rule '100100' will be ignored.
+2024/01/26 11:03:17 wazuh-testrule: WARNING: (7616): List 'etc/lists/unwanted-software' could not be loaded. Rule '100500' will be ignored.
+2024/01/26 11:03:18 wazuh-analysisd: WARNING: (7616): List 'etc/lists/blacklist-alienvault' could not be loaded. Rule '100100' will be ignored.
+2024/01/26 11:03:18 wazuh-analysisd: WARNING: (7616): List 'etc/lists/unwanted-software' could not be loaded. Rule '100500' will be ignored.
+2024/01/26 11:03:19 wazuh-modulesd:syscollector: INFO: Stop received for Syscollector.
+2024/01/26 11:03:19 wazuh-modulesd:syscollector: INFO: Module finished.
+2024/01/26 11:03:19 wazuh-monitord: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2024/01/26 11:03:19 wazuh-logcollector: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2024/01/26 11:03:19 wazuh-remoted: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2024/01/26 11:03:19 wazuh-syscheckd: INFO: (1756): Shutdown received. Releasing resources.
+2024/01/26 11:03:19 wazuh-syscheckd: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2024/01/26 11:03:19 wazuh-analysisd: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2024/01/26 11:03:19 wazuh-execd: INFO: (1314): Shutdown received. Deleting responses.
+2024/01/26 11:03:19 wazuh-execd: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2024/01/26 11:03:19 wazuh-db: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2024/01/26 11:03:20 wazuh-authd: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2024/01/26 11:03:21 wazuh-authd: INFO: Exiting...
+2024/01/26 11:03:21 wazuh-testrule: WARNING: (7616): List 'etc/lists/blacklist-alienvault' could not be loaded. Rule '100100' will be ignored.
+2024/01/26 11:03:22 wazuh-testrule: WARNING: (7616): List 'etc/lists/unwanted-software' could not be loaded. Rule '100500' will be ignored.
+2024/01/26 11:03:23 wazuh-csyslogd: INFO: Remote syslog server not configured. Clean exit.
+2024/01/26 11:03:23 wazuh-dbd: INFO: Database not configured. Clean exit.
+2024/01/26 11:03:23 wazuh-integratord: INFO: Started (pid: 2109).
+2024/01/26 11:03:23 wazuh-integratord: INFO: Enabling integration for: 'shuffle'.
+2024/01/26 11:03:23 wazuh-integratord: INFO: Enabling integration for: 'virustotal'.
+2024/01/26 11:03:23 wazuh-integratord: INFO: Enabling integration for: 'virustotal'.
+2024/01/26 11:03:23 wazuh-integratord: INFO: Enabling integration for: 'custom-abuseipdb.py'.
+2024/01/26 11:03:23 wazuh-integratord: INFO: Enabling integration for: 'custom-w2thive'.
+2024/01/26 11:03:23 wazuh-integratord: INFO: Enabling integration for: 'custom-opencti'.
+2024/01/26 11:03:23 wazuh-integratord: INFO: Enabling integration for: 'custom-misp.py'.
+2024/01/26 11:03:23 wazuh-agentlessd: INFO: Not configured. Exiting.
+2024/01/26 11:03:23 wazuh-authd: INFO: Started (pid: 2130).
+2024/01/26 11:03:23 wazuh-authd: INFO: Accepting connections on port 1515. No password required.
+2024/01/26 11:03:23 wazuh-authd: INFO: Setting network timeout to 1.000000 sec.
+2024/01/26 11:03:23 wazuh-db: INFO: Started (pid: 2144).
+2024/01/26 11:03:24 wazuh-execd: INFO: Started (pid: 2169).
+2024/01/26 11:03:25 wazuh-syscheckd: INFO: Started (pid: 2194).
+2024/01/26 11:03:25 wazuh-syscheckd: INFO: (6003): Monitoring path: '/bin', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2024/01/26 11:03:25 wazuh-syscheckd: INFO: (6003): Monitoring path: '/boot', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2024/01/26 11:03:25 wazuh-syscheckd: INFO: (6003): Monitoring path: '/etc', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2024/01/26 11:03:25 wazuh-syscheckd: INFO: (6003): Monitoring path: '/sbin', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2024/01/26 11:03:25 wazuh-syscheckd: INFO: (6003): Monitoring path: '/usr/bin', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2024/01/26 11:03:25 wazuh-syscheckd: INFO: (6003): Monitoring path: '/usr/sbin', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2024/01/26 11:03:25 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/mtab'
+2024/01/26 11:03:25 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/hosts.deny'
+2024/01/26 11:03:25 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/mail/statistics'
+2024/01/26 11:03:25 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/random-seed'
+2024/01/26 11:03:25 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/random.seed'
+2024/01/26 11:03:25 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/adjtime'
+2024/01/26 11:03:25 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/httpd/logs'
+2024/01/26 11:03:25 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/utmpx'
+2024/01/26 11:03:25 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/wtmpx'
+2024/01/26 11:03:25 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/cups/certs'
+2024/01/26 11:03:25 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/dumpdates'
+2024/01/26 11:03:25 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/svc/volatile'
+2024/01/26 11:03:25 wazuh-syscheckd: INFO: (6207): Ignore 'file' sregex '.log$|.swp$'
+2024/01/26 11:03:25 wazuh-syscheckd: INFO: (6004): No diff for file: '/etc/ssl/private.key'
+2024/01/26 11:03:25 wazuh-syscheckd: INFO: (6000): Starting daemon...
+2024/01/26 11:03:25 wazuh-syscheckd: INFO: (6010): File integrity monitoring scan frequency: 43200 seconds
+2024/01/26 11:03:25 wazuh-syscheckd: INFO: (6008): File integrity monitoring scan started.
+2024/01/26 11:03:25 rootcheck: INFO: Starting rootcheck scan.
+2024/01/26 11:03:26 wazuh-syscheckd: INFO: (6009): File integrity monitoring scan ended.
+2024/01/26 11:03:26 wazuh-syscheckd: INFO: FIM sync module started.
+2024/01/26 11:03:26 wazuh-analysisd: WARNING: (7616): List 'etc/lists/blacklist-alienvault' could not be loaded. Rule '100100' will be ignored.
+2024/01/26 11:03:26 wazuh-analysisd: WARNING: (7616): List 'etc/lists/unwanted-software' could not be loaded. Rule '100500' will be ignored.
+2024/01/26 11:03:26 wazuh-analysisd: INFO: Total rules enabled: '6807'
+2024/01/26 11:03:26 wazuh-analysisd: INFO: White listing IP: '127.0.0.1'
+2024/01/26 11:03:26 wazuh-analysisd: INFO: 1 IPs in the white list for active response.
+2024/01/26 11:03:26 wazuh-analysisd: INFO: White listing Hostname: 'localhost.localdomain'
+2024/01/26 11:03:26 wazuh-analysisd: INFO: 1 Hostname(s) in the white list for active response.
+2024/01/26 11:03:26 wazuh-analysisd: INFO: Started (pid: 2184).
+2024/01/26 11:03:26 wazuh-remoted: INFO: Started (pid: 2217). Listening on port 1514/TCP (secure).
+2024/01/26 11:03:26 wazuh-remoted: INFO: (1410): Reading authentication keys file.
+2024/01/26 11:03:26 wazuh-analysisd: INFO: (7200): Logtest started
+2024/01/26 11:03:27 wazuh-logcollector: INFO: Monitoring output of command(360): df -P
+2024/01/26 11:03:27 wazuh-logcollector: INFO: Monitoring full output of command(360): netstat -tulpn | sed 's/\([[:alnum:]]\+\)\ \+[[:digit:]]\+\ \+[[:digit:]]\+\ \+\(.*\):\([[:digit:]]*\)\ \+\([0-9\.\:\*]\+\).\+\ \([[:digit:]]*\/[[:alnum:]\-]*\).*/\1 \2 == \3 == \4 \5/' | sort -k 4 -g | sed 's/ == \(.*\) ==/:\1/' | sed 1,2d
+2024/01/26 11:03:27 wazuh-logcollector: INFO: Monitoring full output of command(360): last -n 20
+2024/01/26 11:03:27 wazuh-logcollector: INFO: (1950): Analyzing file: '/var/ossec/logs/active-responses.log'.
+2024/01/26 11:03:27 wazuh-logcollector: INFO: (1950): Analyzing file: '/var/log/dpkg.log'.
+2024/01/26 11:03:27 wazuh-logcollector: INFO: Started (pid: 2252).
+2024/01/26 11:03:27 wazuh-monitord: INFO: Started (pid: 2269).
+2024/01/26 11:03:28 wazuh-modulesd: INFO: Started (pid: 2282).
+2024/01/26 11:03:28 wazuh-modulesd:agent-upgrade: INFO: (8153): Module Agent Upgrade started.
+2024/01/26 11:03:28 wazuh-modulesd:osquery: INFO: Module disabled. Exiting...
+2024/01/26 11:03:28 wazuh-modulesd:download: INFO: Module started.
+2024/01/26 11:03:28 wazuh-modulesd:database: INFO: Module started.
+2024/01/26 11:03:28 wazuh-modulesd:ciscat: INFO: Module disabled. Exiting...
+2024/01/26 11:03:28 sca: INFO: Module started.
+2024/01/26 11:03:28 sca: INFO: Loaded policy '/var/ossec/ruleset/sca/cis_ubuntu20-04.yml'
+2024/01/26 11:03:28 sca: INFO: Starting Security Configuration Assessment scan.
+2024/01/26 11:03:28 wazuh-modulesd:task-manager: INFO: (8200): Module Task Manager started.
+2024/01/26 11:03:28 wazuh-modulesd:control: INFO: Starting control thread.
+2024/01/26 11:03:28 wazuh-modulesd:syscollector: INFO: Module started.
+2024/01/26 11:03:28 wazuh-modulesd:syscollector: INFO: Starting evaluation.
+2024/01/26 11:03:28 sca: INFO: Starting evaluation of policy: '/var/ossec/ruleset/sca/cis_ubuntu20-04.yml'
+2024/01/26 11:03:28 wazuh-modulesd:syscollector: INFO: Evaluation finished.
+2024/01/26 11:03:29 wazuh-analysisd: INFO: Connected to 'queue/alerts/ar' (active-response queue)
+2024/01/26 11:03:29 wazuh-analysisd: INFO: Connected to 'queue/alerts/execq' (exec queue)
+2024/01/26 11:03:29 wazuh-analysisd: INFO: EPS limit disabled
+2024/01/26 11:03:33 sca: INFO: Evaluation finished for policy '/var/ossec/ruleset/sca/cis_ubuntu20-04.yml'
+2024/01/26 11:03:33 sca: INFO: Security Configuration Assessment scan finished. Duration: 5 seconds.
+2024/01/26 11:03:45 rootcheck: INFO: Ending rootcheck scan.
+2024/01/26 11:04:21 wazuh-authd: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2024/01/26 11:04:21 wazuh-authd: INFO: (1225): SIGNAL [(1)-(Hangup)] Received. Exit Cleaning...
+2024/01/26 11:04:21 wazuh-execd: INFO: (1314): Shutdown received. Deleting responses.
+2024/01/26 11:04:21 wazuh-modulesd:syscollector: INFO: Stop received for Syscollector.
+2024/01/26 11:04:21 wazuh-execd: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2024/01/26 11:04:21 wazuh-monitord: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2024/01/26 11:04:21 wazuh-analysisd: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2024/01/26 11:04:21 wazuh-integratord: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2024/01/26 11:04:21 wazuh-remoted: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2024/01/26 11:04:21 wazuh-logcollector: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2024/01/26 11:04:21 wazuh-syscheckd: INFO: (1756): Shutdown received. Releasing resources.
+2024/01/26 11:04:21 wazuh-syscheckd: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2024/01/26 11:04:21 wazuh-modulesd:syscollector: INFO: Module finished.
+2024/01/26 11:04:21 wazuh-authd: INFO: Exiting...
+2024/01/26 11:04:32 wazuh-analysisd: WARNING: (7616): List 'etc/lists/blacklist-alienvault' could not be loaded. Rule '100100' will be ignored.
+2024/01/26 11:04:32 wazuh-analysisd: WARNING: (7616): List 'etc/lists/unwanted-software' could not be loaded. Rule '100500' will be ignored.
+2024/01/26 11:04:34 wazuh-testrule: WARNING: (7616): List 'etc/lists/blacklist-alienvault' could not be loaded. Rule '100100' will be ignored.
+2024/01/26 11:04:34 wazuh-testrule: WARNING: (7616): List 'etc/lists/unwanted-software' could not be loaded. Rule '100500' will be ignored.
+2024/01/26 11:04:35 wazuh-csyslogd: INFO: Remote syslog server not configured. Clean exit.
+2024/01/26 11:04:35 wazuh-dbd: INFO: Database not configured. Clean exit.
+2024/01/26 11:04:35 wazuh-integratord: INFO: Started (pid: 353).
+2024/01/26 11:04:35 wazuh-integratord: INFO: Enabling integration for: 'shuffle'.
+2024/01/26 11:04:35 wazuh-integratord: INFO: Enabling integration for: 'virustotal'.
+2024/01/26 11:04:35 wazuh-integratord: INFO: Enabling integration for: 'virustotal'.
+2024/01/26 11:04:35 wazuh-integratord: INFO: Enabling integration for: 'custom-abuseipdb.py'.
+2024/01/26 11:04:35 wazuh-integratord: INFO: Enabling integration for: 'custom-w2thive'.
+2024/01/26 11:04:35 wazuh-integratord: INFO: Enabling integration for: 'custom-opencti'.
+2024/01/26 11:04:35 wazuh-integratord: INFO: Enabling integration for: 'custom-misp.py'.
+2024/01/26 11:04:35 wazuh-agentlessd: INFO: Not configured. Exiting.
+2024/01/26 11:04:35 wazuh-authd: INFO: Started (pid: 374).
+2024/01/26 11:04:35 wazuh-authd: INFO: Accepting connections on port 1515. No password required.
+2024/01/26 11:04:35 wazuh-authd: INFO: Setting network timeout to 1.000000 sec.
+2024/01/26 11:04:36 wazuh-db: INFO: Started (pid: 395).
+2024/01/26 11:04:37 wazuh-execd: INFO: Started (pid: 422).
+2024/01/26 11:04:39 wazuh-analysisd: WARNING: (7616): List 'etc/lists/blacklist-alienvault' could not be loaded. Rule '100100' will be ignored.
+2024/01/26 11:04:39 wazuh-analysisd: WARNING: (7616): List 'etc/lists/unwanted-software' could not be loaded. Rule '100500' will be ignored.
+2024/01/26 11:04:39 wazuh-analysisd: INFO: Total rules enabled: '6807'
+2024/01/26 11:04:39 wazuh-analysisd: INFO: White listing IP: '127.0.0.1'
+2024/01/26 11:04:39 wazuh-analysisd: INFO: 1 IPs in the white list for active response.
+2024/01/26 11:04:39 wazuh-analysisd: INFO: White listing Hostname: 'localhost.localdomain'
+2024/01/26 11:04:39 wazuh-analysisd: INFO: 1 Hostname(s) in the white list for active response.
+2024/01/26 11:04:39 wazuh-analysisd: INFO: Started (pid: 436).
+2024/01/26 11:04:39 wazuh-syscheckd: INFO: Started (pid: 451).
+2024/01/26 11:04:40 wazuh-syscheckd: INFO: (6003): Monitoring path: '/bin', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2024/01/26 11:04:40 wazuh-syscheckd: INFO: (6003): Monitoring path: '/boot', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2024/01/26 11:04:40 wazuh-syscheckd: INFO: (6003): Monitoring path: '/etc', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2024/01/26 11:04:40 wazuh-syscheckd: INFO: (6003): Monitoring path: '/sbin', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2024/01/26 11:04:40 wazuh-syscheckd: INFO: (6003): Monitoring path: '/usr/bin', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2024/01/26 11:04:40 wazuh-syscheckd: INFO: (6003): Monitoring path: '/usr/sbin', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2024/01/26 11:04:40 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/mtab'
+2024/01/26 11:04:40 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/hosts.deny'
+2024/01/26 11:04:40 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/mail/statistics'
+2024/01/26 11:04:40 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/random-seed'
+2024/01/26 11:04:40 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/random.seed'
+2024/01/26 11:04:40 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/adjtime'
+2024/01/26 11:04:40 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/httpd/logs'
+2024/01/26 11:04:40 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/utmpx'
+2024/01/26 11:04:40 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/wtmpx'
+2024/01/26 11:04:40 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/cups/certs'
+2024/01/26 11:04:40 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/dumpdates'
+2024/01/26 11:04:40 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/svc/volatile'
+2024/01/26 11:04:40 wazuh-syscheckd: INFO: (6207): Ignore 'file' sregex '.log$|.swp$'
+2024/01/26 11:04:40 wazuh-syscheckd: INFO: (6004): No diff for file: '/etc/ssl/private.key'
+2024/01/26 11:04:40 wazuh-syscheckd: INFO: (6000): Starting daemon...
+2024/01/26 11:04:40 wazuh-syscheckd: INFO: (6010): File integrity monitoring scan frequency: 43200 seconds
+2024/01/26 11:04:40 wazuh-syscheckd: INFO: (6008): File integrity monitoring scan started.
+2024/01/26 11:04:40 rootcheck: INFO: Starting rootcheck scan.
+2024/01/26 11:04:40 wazuh-analysisd: INFO: (7200): Logtest started
+2024/01/26 11:04:41 wazuh-remoted: INFO: Started (pid: 471). Listening on port 1514/TCP (secure).
+2024/01/26 11:04:41 wazuh-remoted: INFO: (1410): Reading authentication keys file.
+2024/01/26 11:04:42 wazuh-logcollector: INFO: Monitoring output of command(360): df -P
+2024/01/26 11:04:42 wazuh-logcollector: INFO: Monitoring full output of command(360): netstat -tulpn | sed 's/\([[:alnum:]]\+\)\ \+[[:digit:]]\+\ \+[[:digit:]]\+\ \+\(.*\):\([[:digit:]]*\)\ \+\([0-9\.\:\*]\+\).\+\ \([[:digit:]]*\/[[:alnum:]\-]*\).*/\1 \2 == \3 == \4 \5/' | sort -k 4 -g | sed 's/ == \(.*\) ==/:\1/' | sed 1,2d
+2024/01/26 11:04:42 wazuh-logcollector: INFO: Monitoring full output of command(360): last -n 20
+2024/01/26 11:04:42 wazuh-logcollector: INFO: (1950): Analyzing file: '/var/ossec/logs/active-responses.log'.
+2024/01/26 11:04:42 wazuh-logcollector: INFO: (1950): Analyzing file: '/var/log/dpkg.log'.
+2024/01/26 11:04:42 wazuh-logcollector: INFO: Started (pid: 503).
+2024/01/26 11:04:42 wazuh-syscheckd: INFO: (6009): File integrity monitoring scan ended.
+2024/01/26 11:04:42 wazuh-syscheckd: INFO: FIM sync module started.
+2024/01/26 11:04:43 wazuh-analysisd: INFO: Connected to 'queue/alerts/ar' (active-response queue)
+2024/01/26 11:04:43 wazuh-analysisd: INFO: Connected to 'queue/alerts/execq' (exec queue)
+2024/01/26 11:04:43 wazuh-analysisd: INFO: EPS limit disabled
+2024/01/26 11:04:43 wazuh-monitord: INFO: Started (pid: 573).
+2024/01/26 11:04:44 wazuh-modulesd: INFO: Started (pid: 603).
+2024/01/26 11:04:44 sca: INFO: Module started.
+2024/01/26 11:04:44 sca: INFO: Loaded policy '/var/ossec/ruleset/sca/cis_ubuntu20-04.yml'
+2024/01/26 11:04:44 wazuh-modulesd:download: INFO: Module started.
+2024/01/26 11:04:44 wazuh-modulesd:ciscat: INFO: Module disabled. Exiting...
+2024/01/26 11:04:44 sca: INFO: Starting Security Configuration Assessment scan.
+2024/01/26 11:04:44 wazuh-modulesd:control: INFO: Starting control thread.
+2024/01/26 11:04:44 wazuh-modulesd:osquery: INFO: Module disabled. Exiting...
+2024/01/26 11:04:44 wazuh-modulesd:task-manager: INFO: (8200): Module Task Manager started.
+2024/01/26 11:04:44 wazuh-modulesd:database: INFO: Module started.
+2024/01/26 11:04:44 wazuh-modulesd:agent-upgrade: INFO: (8153): Module Agent Upgrade started.
+2024/01/26 11:04:44 wazuh-modulesd:syscollector: INFO: Module started.
+2024/01/26 11:04:44 wazuh-modulesd:syscollector: INFO: Starting evaluation.
+2024/01/26 11:04:44 wazuh-modulesd:syscollector: INFO: Evaluation finished.
+2024/01/26 11:04:44 sca: INFO: Starting evaluation of policy: '/var/ossec/ruleset/sca/cis_ubuntu20-04.yml'
+2024/01/26 11:04:51 sca: INFO: Evaluation finished for policy '/var/ossec/ruleset/sca/cis_ubuntu20-04.yml'
+2024/01/26 11:04:51 sca: INFO: Security Configuration Assessment scan finished. Duration: 7 seconds.
+2024/01/26 11:05:01 rootcheck: INFO: Ending rootcheck scan.
+2024/01/26 11:08:36 wazuh-authd: INFO: (1225): SIGNAL [(1)-(Hangup)] Received. Exit Cleaning...
+2024/01/26 11:08:36 wazuh-authd: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2024/01/26 11:08:36 wazuh-execd: INFO: (1314): Shutdown received. Deleting responses.
+2024/01/26 11:08:36 wazuh-integratord: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2024/01/26 11:08:36 wazuh-execd: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2024/01/26 11:08:36 wazuh-analysisd: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2024/01/26 11:08:36 wazuh-remoted: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2024/01/26 11:08:36 wazuh-monitord: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2024/01/26 11:08:36 wazuh-db: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2024/01/26 11:08:36 wazuh-db: INFO: (1225): SIGNAL [(1)-(Hangup)] Received. Exit Cleaning...
+2024/01/26 11:08:36 wazuh-db: INFO: at run_dealer(): select(): Interrupted system call
+2024/01/26 11:08:36 wazuh-logcollector: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2024/01/26 11:08:36 wazuh-syscheckd: INFO: (1756): Shutdown received. Releasing resources.
+2024/01/26 11:08:36 wazuh-syscheckd: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2024/01/26 11:08:37 wazuh-authd: INFO: Exiting...

@@ -1,0 +1,659 @@
+** Alert 1706265990.0: - ossec,rootcheck,pci_dss_10.6.1,gdpr_IV_35.7.d,
+2024 Jan 26 10:46:30 wazuh->rootcheck
+Rule: 510 (level 7) -> 'Host-based anomaly detection event (rootcheck).'
+File '/etc/filebeat/fields.yml' is owned by root and has written permissions to anyone.
+title: File is owned by root and has written permissions to anyone.
+file: /etc/filebeat/fields.yml
+
+** Alert 1706265990.371: - ossec,rootcheck,pci_dss_10.6.1,gdpr_IV_35.7.d,
+2024 Jan 26 10:46:30 wazuh->rootcheck
+Rule: 510 (level 7) -> 'Host-based anomaly detection event (rootcheck).'
+File '/etc/filebeat/wazuh-template.json' is owned by root and has written permissions to anyone.
+title: File is owned by root and has written permissions to anyone.
+file: /etc/filebeat/wazuh-template.json
+
+** Alert 1706265990.762: - ossec,rootcheck,pci_dss_10.6.1,gdpr_IV_35.7.d,
+2024 Jan 26 10:46:30 wazuh->rootcheck
+Rule: 510 (level 7) -> 'Host-based anomaly detection event (rootcheck).'
+File '/etc/filebeat/filebeat.reference.yml' is owned by root and has written permissions to anyone.
+title: File is owned by root and has written permissions to anyone.
+file: /etc/filebeat/filebeat.reference.yml
+
+** Alert 1706265990.1159: - ossec,rootcheck,pci_dss_10.6.1,gdpr_IV_35.7.d,
+2024 Jan 26 10:46:30 wazuh->rootcheck
+Rule: 510 (level 7) -> 'Host-based anomaly detection event (rootcheck).'
+File '/etc/filebeat/modules.d/apache.yml.disabled' is owned by root and has written permissions to anyone.
+title: File is owned by root and has written permissions to anyone.
+file: /etc/filebeat/modules.d/apache.yml.disabled
+
+** Alert 1706265990.1571: - ossec,rootcheck,pci_dss_10.6.1,gdpr_IV_35.7.d,
+2024 Jan 26 10:46:30 wazuh->rootcheck
+Rule: 510 (level 7) -> 'Host-based anomaly detection event (rootcheck).'
+File '/etc/filebeat/modules.d/postgresql.yml.disabled' is owned by root and has written permissions to anyone.
+title: File is owned by root and has written permissions to anyone.
+file: /etc/filebeat/modules.d/postgresql.yml.disabled
+
+** Alert 1706265990.1991: - ossec,rootcheck,pci_dss_10.6.1,gdpr_IV_35.7.d,
+2024 Jan 26 10:46:30 wazuh->rootcheck
+Rule: 510 (level 7) -> 'Host-based anomaly detection event (rootcheck).'
+File '/etc/filebeat/modules.d/nats.yml.disabled' is owned by root and has written permissions to anyone.
+title: File is owned by root and has written permissions to anyone.
+file: /etc/filebeat/modules.d/nats.yml.disabled
+
+** Alert 1706265990.2399: - ossec,rootcheck,pci_dss_10.6.1,gdpr_IV_35.7.d,
+2024 Jan 26 10:46:30 wazuh->rootcheck
+Rule: 510 (level 7) -> 'Host-based anomaly detection event (rootcheck).'
+File '/etc/filebeat/modules.d/system.yml.disabled' is owned by root and has written permissions to anyone.
+title: File is owned by root and has written permissions to anyone.
+file: /etc/filebeat/modules.d/system.yml.disabled
+
+** Alert 1706265990.2811: - ossec,rootcheck,pci_dss_10.6.1,gdpr_IV_35.7.d,
+2024 Jan 26 10:46:30 wazuh->rootcheck
+Rule: 510 (level 7) -> 'Host-based anomaly detection event (rootcheck).'
+File '/etc/filebeat/modules.d/icinga.yml.disabled' is owned by root and has written permissions to anyone.
+title: File is owned by root and has written permissions to anyone.
+file: /etc/filebeat/modules.d/icinga.yml.disabled
+
+** Alert 1706265990.3223: - ossec,rootcheck,pci_dss_10.6.1,gdpr_IV_35.7.d,
+2024 Jan 26 10:46:30 wazuh->rootcheck
+Rule: 510 (level 7) -> 'Host-based anomaly detection event (rootcheck).'
+File '/etc/filebeat/modules.d/traefik.yml.disabled' is owned by root and has written permissions to anyone.
+title: File is owned by root and has written permissions to anyone.
+file: /etc/filebeat/modules.d/traefik.yml.disabled
+
+** Alert 1706265990.3637: - ossec,rootcheck,pci_dss_10.6.1,gdpr_IV_35.7.d,
+2024 Jan 26 10:46:30 wazuh->rootcheck
+Rule: 510 (level 7) -> 'Host-based anomaly detection event (rootcheck).'
+File '/etc/filebeat/modules.d/mysql.yml.disabled' is owned by root and has written permissions to anyone.
+title: File is owned by root and has written permissions to anyone.
+file: /etc/filebeat/modules.d/mysql.yml.disabled
+
+** Alert 1706265990.4047: - ossec,rootcheck,pci_dss_10.6.1,gdpr_IV_35.7.d,
+2024 Jan 26 10:46:30 wazuh->rootcheck
+Rule: 510 (level 7) -> 'Host-based anomaly detection event (rootcheck).'
+File '/etc/filebeat/modules.d/mongodb.yml.disabled' is owned by root and has written permissions to anyone.
+title: File is owned by root and has written permissions to anyone.
+file: /etc/filebeat/modules.d/mongodb.yml.disabled
+
+** Alert 1706265990.4461: - ossec,rootcheck,pci_dss_10.6.1,gdpr_IV_35.7.d,
+2024 Jan 26 10:46:30 wazuh->rootcheck
+Rule: 510 (level 7) -> 'Host-based anomaly detection event (rootcheck).'
+File '/etc/filebeat/modules.d/kibana.yml.disabled' is owned by root and has written permissions to anyone.
+title: File is owned by root and has written permissions to anyone.
+file: /etc/filebeat/modules.d/kibana.yml.disabled
+
+** Alert 1706265990.4873: - ossec,rootcheck,pci_dss_10.6.1,gdpr_IV_35.7.d,
+2024 Jan 26 10:46:30 wazuh->rootcheck
+Rule: 510 (level 7) -> 'Host-based anomaly detection event (rootcheck).'
+File '/etc/filebeat/modules.d/osquery.yml.disabled' is owned by root and has written permissions to anyone.
+title: File is owned by root and has written permissions to anyone.
+file: /etc/filebeat/modules.d/osquery.yml.disabled
+
+** Alert 1706265990.5287: - ossec,rootcheck,pci_dss_10.6.1,gdpr_IV_35.7.d,
+2024 Jan 26 10:46:30 wazuh->rootcheck
+Rule: 510 (level 7) -> 'Host-based anomaly detection event (rootcheck).'
+File '/etc/filebeat/modules.d/kafka.yml.disabled' is owned by root and has written permissions to anyone.
+title: File is owned by root and has written permissions to anyone.
+file: /etc/filebeat/modules.d/kafka.yml.disabled
+
+** Alert 1706265990.5697: - ossec,rootcheck,pci_dss_10.6.1,gdpr_IV_35.7.d,
+2024 Jan 26 10:46:30 wazuh->rootcheck
+Rule: 510 (level 7) -> 'Host-based anomaly detection event (rootcheck).'
+File '/etc/filebeat/modules.d/santa.yml.disabled' is owned by root and has written permissions to anyone.
+title: File is owned by root and has written permissions to anyone.
+file: /etc/filebeat/modules.d/santa.yml.disabled
+
+** Alert 1706265990.6107: - ossec,rootcheck,pci_dss_10.6.1,gdpr_IV_35.7.d,
+2024 Jan 26 10:46:30 wazuh->rootcheck
+Rule: 510 (level 7) -> 'Host-based anomaly detection event (rootcheck).'
+File '/etc/filebeat/modules.d/haproxy.yml.disabled' is owned by root and has written permissions to anyone.
+title: File is owned by root and has written permissions to anyone.
+file: /etc/filebeat/modules.d/haproxy.yml.disabled
+
+** Alert 1706265990.6521: - ossec,rootcheck,pci_dss_10.6.1,gdpr_IV_35.7.d,
+2024 Jan 26 10:46:30 wazuh->rootcheck
+Rule: 510 (level 7) -> 'Host-based anomaly detection event (rootcheck).'
+File '/etc/filebeat/modules.d/nginx.yml.disabled' is owned by root and has written permissions to anyone.
+title: File is owned by root and has written permissions to anyone.
+file: /etc/filebeat/modules.d/nginx.yml.disabled
+
+** Alert 1706265990.6931: - ossec,rootcheck,pci_dss_10.6.1,gdpr_IV_35.7.d,
+2024 Jan 26 10:46:30 wazuh->rootcheck
+Rule: 510 (level 7) -> 'Host-based anomaly detection event (rootcheck).'
+File '/etc/filebeat/modules.d/elasticsearch.yml.disabled' is owned by root and has written permissions to anyone.
+title: File is owned by root and has written permissions to anyone.
+file: /etc/filebeat/modules.d/elasticsearch.yml.disabled
+
+** Alert 1706265990.7357: - ossec,rootcheck,pci_dss_10.6.1,gdpr_IV_35.7.d,
+2024 Jan 26 10:46:30 wazuh->rootcheck
+Rule: 510 (level 7) -> 'Host-based anomaly detection event (rootcheck).'
+File '/etc/filebeat/modules.d/redis.yml.disabled' is owned by root and has written permissions to anyone.
+title: File is owned by root and has written permissions to anyone.
+file: /etc/filebeat/modules.d/redis.yml.disabled
+
+** Alert 1706265990.7767: - ossec,rootcheck,pci_dss_10.6.1,gdpr_IV_35.7.d,
+2024 Jan 26 10:46:30 wazuh->rootcheck
+Rule: 510 (level 7) -> 'Host-based anomaly detection event (rootcheck).'
+File '/etc/filebeat/modules.d/logstash.yml.disabled' is owned by root and has written permissions to anyone.
+title: File is owned by root and has written permissions to anyone.
+file: /etc/filebeat/modules.d/logstash.yml.disabled
+
+** Alert 1706265990.8183: - ossec,rootcheck,pci_dss_10.6.1,gdpr_IV_35.7.d,
+2024 Jan 26 10:46:30 wazuh->rootcheck
+Rule: 510 (level 7) -> 'Host-based anomaly detection event (rootcheck).'
+File '/etc/filebeat/modules.d/auditd.yml.disabled' is owned by root and has written permissions to anyone.
+title: File is owned by root and has written permissions to anyone.
+file: /etc/filebeat/modules.d/auditd.yml.disabled
+
+** Alert 1706265990.8595: - ossec,rootcheck,pci_dss_10.6.1,gdpr_IV_35.7.d,
+2024 Jan 26 10:46:30 wazuh->rootcheck
+Rule: 510 (level 7) -> 'Host-based anomaly detection event (rootcheck).'
+File '/etc/filebeat/modules.d/iis.yml.disabled' is owned by root and has written permissions to anyone.
+title: File is owned by root and has written permissions to anyone.
+file: /etc/filebeat/modules.d/iis.yml.disabled
+
+** Alert 1706265990.9001: - ossec,rootcheck,pci_dss_10.6.1,gdpr_IV_35.7.d,
+2024 Jan 26 10:46:30 wazuh->rootcheck
+Rule: 510 (level 7) -> 'Host-based anomaly detection event (rootcheck).'
+File '/var/lib/filebeat/meta.json' is owned by root and has written permissions to anyone.
+title: File is owned by root and has written permissions to anyone.
+file: /var/lib/filebeat/meta.json
+
+** Alert 1706266017.9381: - ossec,rootcheck,pci_dss_10.6.1,gdpr_IV_35.7.d,
+2024 Jan 26 10:46:57 wazuh->rootcheck
+Rule: 510 (level 7) -> 'Host-based anomaly detection event (rootcheck).'
+File '/etc/filebeat/fields.yml' is owned by root and has written permissions to anyone.
+title: File is owned by root and has written permissions to anyone.
+file: /etc/filebeat/fields.yml
+
+** Alert 1706266017.9755: - ossec,rootcheck,pci_dss_10.6.1,gdpr_IV_35.7.d,
+2024 Jan 26 10:46:57 wazuh->rootcheck
+Rule: 510 (level 7) -> 'Host-based anomaly detection event (rootcheck).'
+File '/etc/filebeat/wazuh-template.json' is owned by root and has written permissions to anyone.
+title: File is owned by root and has written permissions to anyone.
+file: /etc/filebeat/wazuh-template.json
+
+** Alert 1706266017.10147: - ossec,rootcheck,pci_dss_10.6.1,gdpr_IV_35.7.d,
+2024 Jan 26 10:46:57 wazuh->rootcheck
+Rule: 510 (level 7) -> 'Host-based anomaly detection event (rootcheck).'
+File '/etc/filebeat/filebeat.reference.yml' is owned by root and has written permissions to anyone.
+title: File is owned by root and has written permissions to anyone.
+file: /etc/filebeat/filebeat.reference.yml
+
+** Alert 1706266017.10546: - ossec,rootcheck,pci_dss_10.6.1,gdpr_IV_35.7.d,
+2024 Jan 26 10:46:57 wazuh->rootcheck
+Rule: 510 (level 7) -> 'Host-based anomaly detection event (rootcheck).'
+File '/etc/filebeat/modules.d/apache.yml.disabled' is owned by root and has written permissions to anyone.
+title: File is owned by root and has written permissions to anyone.
+file: /etc/filebeat/modules.d/apache.yml.disabled
+
+** Alert 1706266017.10959: - ossec,rootcheck,pci_dss_10.6.1,gdpr_IV_35.7.d,
+2024 Jan 26 10:46:57 wazuh->rootcheck
+Rule: 510 (level 7) -> 'Host-based anomaly detection event (rootcheck).'
+File '/etc/filebeat/modules.d/icinga.yml.disabled' is owned by root and has written permissions to anyone.
+title: File is owned by root and has written permissions to anyone.
+file: /etc/filebeat/modules.d/icinga.yml.disabled
+
+** Alert 1706266017.11372: - ossec,rootcheck,pci_dss_10.6.1,gdpr_IV_35.7.d,
+2024 Jan 26 10:46:57 wazuh->rootcheck
+Rule: 510 (level 7) -> 'Host-based anomaly detection event (rootcheck).'
+File '/etc/filebeat/modules.d/nats.yml.disabled' is owned by root and has written permissions to anyone.
+title: File is owned by root and has written permissions to anyone.
+file: /etc/filebeat/modules.d/nats.yml.disabled
+
+** Alert 1706266017.11781: - ossec,rootcheck,pci_dss_10.6.1,gdpr_IV_35.7.d,
+2024 Jan 26 10:46:57 wazuh->rootcheck
+Rule: 510 (level 7) -> 'Host-based anomaly detection event (rootcheck).'
+File '/etc/filebeat/modules.d/system.yml.disabled' is owned by root and has written permissions to anyone.
+title: File is owned by root and has written permissions to anyone.
+file: /etc/filebeat/modules.d/system.yml.disabled
+
+** Alert 1706266017.12194: - ossec,rootcheck,pci_dss_10.6.1,gdpr_IV_35.7.d,
+2024 Jan 26 10:46:57 wazuh->rootcheck
+Rule: 510 (level 7) -> 'Host-based anomaly detection event (rootcheck).'
+File '/etc/filebeat/modules.d/postgresql.yml.disabled' is owned by root and has written permissions to anyone.
+title: File is owned by root and has written permissions to anyone.
+file: /etc/filebeat/modules.d/postgresql.yml.disabled
+
+** Alert 1706266017.12615: - ossec,rootcheck,pci_dss_10.6.1,gdpr_IV_35.7.d,
+2024 Jan 26 10:46:57 wazuh->rootcheck
+Rule: 510 (level 7) -> 'Host-based anomaly detection event (rootcheck).'
+File '/etc/filebeat/modules.d/traefik.yml.disabled' is owned by root and has written permissions to anyone.
+title: File is owned by root and has written permissions to anyone.
+file: /etc/filebeat/modules.d/traefik.yml.disabled
+
+** Alert 1706266017.13030: - ossec,rootcheck,pci_dss_10.6.1,gdpr_IV_35.7.d,
+2024 Jan 26 10:46:57 wazuh->rootcheck
+Rule: 510 (level 7) -> 'Host-based anomaly detection event (rootcheck).'
+File '/etc/filebeat/modules.d/mysql.yml.disabled' is owned by root and has written permissions to anyone.
+title: File is owned by root and has written permissions to anyone.
+file: /etc/filebeat/modules.d/mysql.yml.disabled
+
+** Alert 1706266017.13441: - ossec,rootcheck,pci_dss_10.6.1,gdpr_IV_35.7.d,
+2024 Jan 26 10:46:57 wazuh->rootcheck
+Rule: 510 (level 7) -> 'Host-based anomaly detection event (rootcheck).'
+File '/etc/filebeat/modules.d/mongodb.yml.disabled' is owned by root and has written permissions to anyone.
+title: File is owned by root and has written permissions to anyone.
+file: /etc/filebeat/modules.d/mongodb.yml.disabled
+
+** Alert 1706266017.13856: - ossec,rootcheck,pci_dss_10.6.1,gdpr_IV_35.7.d,
+2024 Jan 26 10:46:57 wazuh->rootcheck
+Rule: 510 (level 7) -> 'Host-based anomaly detection event (rootcheck).'
+File '/etc/filebeat/modules.d/kibana.yml.disabled' is owned by root and has written permissions to anyone.
+title: File is owned by root and has written permissions to anyone.
+file: /etc/filebeat/modules.d/kibana.yml.disabled
+
+** Alert 1706266017.14269: - ossec,rootcheck,pci_dss_10.6.1,gdpr_IV_35.7.d,
+2024 Jan 26 10:46:57 wazuh->rootcheck
+Rule: 510 (level 7) -> 'Host-based anomaly detection event (rootcheck).'
+File '/etc/filebeat/modules.d/osquery.yml.disabled' is owned by root and has written permissions to anyone.
+title: File is owned by root and has written permissions to anyone.
+file: /etc/filebeat/modules.d/osquery.yml.disabled
+
+** Alert 1706266017.14684: - ossec,rootcheck,pci_dss_10.6.1,gdpr_IV_35.7.d,
+2024 Jan 26 10:46:57 wazuh->rootcheck
+Rule: 510 (level 7) -> 'Host-based anomaly detection event (rootcheck).'
+File '/etc/filebeat/modules.d/kafka.yml.disabled' is owned by root and has written permissions to anyone.
+title: File is owned by root and has written permissions to anyone.
+file: /etc/filebeat/modules.d/kafka.yml.disabled
+
+** Alert 1706266017.15095: - ossec,rootcheck,pci_dss_10.6.1,gdpr_IV_35.7.d,
+2024 Jan 26 10:46:57 wazuh->rootcheck
+Rule: 510 (level 7) -> 'Host-based anomaly detection event (rootcheck).'
+File '/etc/filebeat/modules.d/santa.yml.disabled' is owned by root and has written permissions to anyone.
+title: File is owned by root and has written permissions to anyone.
+file: /etc/filebeat/modules.d/santa.yml.disabled
+
+** Alert 1706266017.15506: - ossec,rootcheck,pci_dss_10.6.1,gdpr_IV_35.7.d,
+2024 Jan 26 10:46:57 wazuh->rootcheck
+Rule: 510 (level 7) -> 'Host-based anomaly detection event (rootcheck).'
+File '/etc/filebeat/modules.d/haproxy.yml.disabled' is owned by root and has written permissions to anyone.
+title: File is owned by root and has written permissions to anyone.
+file: /etc/filebeat/modules.d/haproxy.yml.disabled
+
+** Alert 1706266017.15921: - ossec,rootcheck,pci_dss_10.6.1,gdpr_IV_35.7.d,
+2024 Jan 26 10:46:57 wazuh->rootcheck
+Rule: 510 (level 7) -> 'Host-based anomaly detection event (rootcheck).'
+File '/etc/filebeat/modules.d/nginx.yml.disabled' is owned by root and has written permissions to anyone.
+title: File is owned by root and has written permissions to anyone.
+file: /etc/filebeat/modules.d/nginx.yml.disabled
+
+** Alert 1706266017.16332: - ossec,rootcheck,pci_dss_10.6.1,gdpr_IV_35.7.d,
+2024 Jan 26 10:46:57 wazuh->rootcheck
+Rule: 510 (level 7) -> 'Host-based anomaly detection event (rootcheck).'
+File '/etc/filebeat/modules.d/auditd.yml.disabled' is owned by root and has written permissions to anyone.
+title: File is owned by root and has written permissions to anyone.
+file: /etc/filebeat/modules.d/auditd.yml.disabled
+
+** Alert 1706266017.16745: - ossec,rootcheck,pci_dss_10.6.1,gdpr_IV_35.7.d,
+2024 Jan 26 10:46:57 wazuh->rootcheck
+Rule: 510 (level 7) -> 'Host-based anomaly detection event (rootcheck).'
+File '/etc/filebeat/modules.d/redis.yml.disabled' is owned by root and has written permissions to anyone.
+title: File is owned by root and has written permissions to anyone.
+file: /etc/filebeat/modules.d/redis.yml.disabled
+
+** Alert 1706266017.17156: - ossec,rootcheck,pci_dss_10.6.1,gdpr_IV_35.7.d,
+2024 Jan 26 10:46:57 wazuh->rootcheck
+Rule: 510 (level 7) -> 'Host-based anomaly detection event (rootcheck).'
+File '/etc/filebeat/modules.d/logstash.yml.disabled' is owned by root and has written permissions to anyone.
+title: File is owned by root and has written permissions to anyone.
+file: /etc/filebeat/modules.d/logstash.yml.disabled
+
+** Alert 1706266017.17573: - ossec,rootcheck,pci_dss_10.6.1,gdpr_IV_35.7.d,
+2024 Jan 26 10:46:57 wazuh->rootcheck
+Rule: 510 (level 7) -> 'Host-based anomaly detection event (rootcheck).'
+File '/etc/filebeat/modules.d/elasticsearch.yml.disabled' is owned by root and has written permissions to anyone.
+title: File is owned by root and has written permissions to anyone.
+file: /etc/filebeat/modules.d/elasticsearch.yml.disabled
+
+** Alert 1706266017.18000: - ossec,rootcheck,pci_dss_10.6.1,gdpr_IV_35.7.d,
+2024 Jan 26 10:46:57 wazuh->rootcheck
+Rule: 510 (level 7) -> 'Host-based anomaly detection event (rootcheck).'
+File '/etc/filebeat/modules.d/iis.yml.disabled' is owned by root and has written permissions to anyone.
+title: File is owned by root and has written permissions to anyone.
+file: /etc/filebeat/modules.d/iis.yml.disabled
+
+** Alert 1706266017.18407: - ossec,rootcheck,pci_dss_10.6.1,gdpr_IV_35.7.d,
+2024 Jan 26 10:46:57 wazuh->rootcheck
+Rule: 510 (level 7) -> 'Host-based anomaly detection event (rootcheck).'
+File '/var/lib/filebeat/meta.json' is owned by root and has written permissions to anyone.
+title: File is owned by root and has written permissions to anyone.
+file: /var/lib/filebeat/meta.json
+
+** Alert 1706266027.18788: - ossec,pci_dss_10.6.1,gpg13_10.1,gdpr_IV_35.7.d,hipaa_164.312.b,nist_800_53_AU.6,tsc_CC7.2,tsc_CC7.3,
+2024 Jan 26 10:47:07 wazuh->wazuh-monitord
+Rule: 502 (level 3) -> 'Wazuh server started.'
+ossec: Manager started.
+
+** Alert 1706267009.19033: - ossec,rootcheck,pci_dss_10.6.1,gdpr_IV_35.7.d,
+2024 Jan 26 11:03:29 wazuh->rootcheck
+Rule: 510 (level 7) -> 'Host-based anomaly detection event (rootcheck).'
+File '/etc/filebeat/fields.yml' is owned by root and has written permissions to anyone.
+title: File is owned by root and has written permissions to anyone.
+file: /etc/filebeat/fields.yml
+
+** Alert 1706267009.19408: - ossec,rootcheck,pci_dss_10.6.1,gdpr_IV_35.7.d,
+2024 Jan 26 11:03:29 wazuh->rootcheck
+Rule: 510 (level 7) -> 'Host-based anomaly detection event (rootcheck).'
+File '/etc/filebeat/wazuh-template.json' is owned by root and has written permissions to anyone.
+title: File is owned by root and has written permissions to anyone.
+file: /etc/filebeat/wazuh-template.json
+
+** Alert 1706267009.19801: - ossec,rootcheck,pci_dss_10.6.1,gdpr_IV_35.7.d,
+2024 Jan 26 11:03:29 wazuh->rootcheck
+Rule: 510 (level 7) -> 'Host-based anomaly detection event (rootcheck).'
+File '/etc/filebeat/filebeat.reference.yml' is owned by root and has written permissions to anyone.
+title: File is owned by root and has written permissions to anyone.
+file: /etc/filebeat/filebeat.reference.yml
+
+** Alert 1706267009.20200: - ossec,rootcheck,pci_dss_10.6.1,gdpr_IV_35.7.d,
+2024 Jan 26 11:03:29 wazuh->rootcheck
+Rule: 510 (level 7) -> 'Host-based anomaly detection event (rootcheck).'
+File '/etc/filebeat/modules.d/apache.yml.disabled' is owned by root and has written permissions to anyone.
+title: File is owned by root and has written permissions to anyone.
+file: /etc/filebeat/modules.d/apache.yml.disabled
+
+** Alert 1706267009.20613: - ossec,rootcheck,pci_dss_10.6.1,gdpr_IV_35.7.d,
+2024 Jan 26 11:03:29 wazuh->rootcheck
+Rule: 510 (level 7) -> 'Host-based anomaly detection event (rootcheck).'
+File '/etc/filebeat/modules.d/icinga.yml.disabled' is owned by root and has written permissions to anyone.
+title: File is owned by root and has written permissions to anyone.
+file: /etc/filebeat/modules.d/icinga.yml.disabled
+
+** Alert 1706267009.21026: - ossec,rootcheck,pci_dss_10.6.1,gdpr_IV_35.7.d,
+2024 Jan 26 11:03:29 wazuh->rootcheck
+Rule: 510 (level 7) -> 'Host-based anomaly detection event (rootcheck).'
+File '/etc/filebeat/modules.d/nats.yml.disabled' is owned by root and has written permissions to anyone.
+title: File is owned by root and has written permissions to anyone.
+file: /etc/filebeat/modules.d/nats.yml.disabled
+
+** Alert 1706267009.21435: - ossec,rootcheck,pci_dss_10.6.1,gdpr_IV_35.7.d,
+2024 Jan 26 11:03:29 wazuh->rootcheck
+Rule: 510 (level 7) -> 'Host-based anomaly detection event (rootcheck).'
+File '/etc/filebeat/modules.d/system.yml.disabled' is owned by root and has written permissions to anyone.
+title: File is owned by root and has written permissions to anyone.
+file: /etc/filebeat/modules.d/system.yml.disabled
+
+** Alert 1706267009.21848: - ossec,rootcheck,pci_dss_10.6.1,gdpr_IV_35.7.d,
+2024 Jan 26 11:03:29 wazuh->rootcheck
+Rule: 510 (level 7) -> 'Host-based anomaly detection event (rootcheck).'
+File '/etc/filebeat/modules.d/postgresql.yml.disabled' is owned by root and has written permissions to anyone.
+title: File is owned by root and has written permissions to anyone.
+file: /etc/filebeat/modules.d/postgresql.yml.disabled
+
+** Alert 1706267009.22269: - ossec,rootcheck,pci_dss_10.6.1,gdpr_IV_35.7.d,
+2024 Jan 26 11:03:29 wazuh->rootcheck
+Rule: 510 (level 7) -> 'Host-based anomaly detection event (rootcheck).'
+File '/etc/filebeat/modules.d/traefik.yml.disabled' is owned by root and has written permissions to anyone.
+title: File is owned by root and has written permissions to anyone.
+file: /etc/filebeat/modules.d/traefik.yml.disabled
+
+** Alert 1706267009.22684: - ossec,rootcheck,pci_dss_10.6.1,gdpr_IV_35.7.d,
+2024 Jan 26 11:03:29 wazuh->rootcheck
+Rule: 510 (level 7) -> 'Host-based anomaly detection event (rootcheck).'
+File '/etc/filebeat/modules.d/mysql.yml.disabled' is owned by root and has written permissions to anyone.
+title: File is owned by root and has written permissions to anyone.
+file: /etc/filebeat/modules.d/mysql.yml.disabled
+
+** Alert 1706267009.23095: - ossec,rootcheck,pci_dss_10.6.1,gdpr_IV_35.7.d,
+2024 Jan 26 11:03:29 wazuh->rootcheck
+Rule: 510 (level 7) -> 'Host-based anomaly detection event (rootcheck).'
+File '/etc/filebeat/modules.d/mongodb.yml.disabled' is owned by root and has written permissions to anyone.
+title: File is owned by root and has written permissions to anyone.
+file: /etc/filebeat/modules.d/mongodb.yml.disabled
+
+** Alert 1706267009.23510: - ossec,rootcheck,pci_dss_10.6.1,gdpr_IV_35.7.d,
+2024 Jan 26 11:03:29 wazuh->rootcheck
+Rule: 510 (level 7) -> 'Host-based anomaly detection event (rootcheck).'
+File '/etc/filebeat/modules.d/kibana.yml.disabled' is owned by root and has written permissions to anyone.
+title: File is owned by root and has written permissions to anyone.
+file: /etc/filebeat/modules.d/kibana.yml.disabled
+
+** Alert 1706267009.23923: - ossec,rootcheck,pci_dss_10.6.1,gdpr_IV_35.7.d,
+2024 Jan 26 11:03:29 wazuh->rootcheck
+Rule: 510 (level 7) -> 'Host-based anomaly detection event (rootcheck).'
+File '/etc/filebeat/modules.d/osquery.yml.disabled' is owned by root and has written permissions to anyone.
+title: File is owned by root and has written permissions to anyone.
+file: /etc/filebeat/modules.d/osquery.yml.disabled
+
+** Alert 1706267009.24338: - ossec,rootcheck,pci_dss_10.6.1,gdpr_IV_35.7.d,
+2024 Jan 26 11:03:29 wazuh->rootcheck
+Rule: 510 (level 7) -> 'Host-based anomaly detection event (rootcheck).'
+File '/etc/filebeat/modules.d/kafka.yml.disabled' is owned by root and has written permissions to anyone.
+title: File is owned by root and has written permissions to anyone.
+file: /etc/filebeat/modules.d/kafka.yml.disabled
+
+** Alert 1706267009.24749: - ossec,rootcheck,pci_dss_10.6.1,gdpr_IV_35.7.d,
+2024 Jan 26 11:03:29 wazuh->rootcheck
+Rule: 510 (level 7) -> 'Host-based anomaly detection event (rootcheck).'
+File '/etc/filebeat/modules.d/santa.yml.disabled' is owned by root and has written permissions to anyone.
+title: File is owned by root and has written permissions to anyone.
+file: /etc/filebeat/modules.d/santa.yml.disabled
+
+** Alert 1706267009.25160: - ossec,rootcheck,pci_dss_10.6.1,gdpr_IV_35.7.d,
+2024 Jan 26 11:03:29 wazuh->rootcheck
+Rule: 510 (level 7) -> 'Host-based anomaly detection event (rootcheck).'
+File '/etc/filebeat/modules.d/haproxy.yml.disabled' is owned by root and has written permissions to anyone.
+title: File is owned by root and has written permissions to anyone.
+file: /etc/filebeat/modules.d/haproxy.yml.disabled
+
+** Alert 1706267009.25575: - ossec,rootcheck,pci_dss_10.6.1,gdpr_IV_35.7.d,
+2024 Jan 26 11:03:29 wazuh->rootcheck
+Rule: 510 (level 7) -> 'Host-based anomaly detection event (rootcheck).'
+File '/etc/filebeat/modules.d/nginx.yml.disabled' is owned by root and has written permissions to anyone.
+title: File is owned by root and has written permissions to anyone.
+file: /etc/filebeat/modules.d/nginx.yml.disabled
+
+** Alert 1706267009.25986: - ossec,rootcheck,pci_dss_10.6.1,gdpr_IV_35.7.d,
+2024 Jan 26 11:03:29 wazuh->rootcheck
+Rule: 510 (level 7) -> 'Host-based anomaly detection event (rootcheck).'
+File '/etc/filebeat/modules.d/auditd.yml.disabled' is owned by root and has written permissions to anyone.
+title: File is owned by root and has written permissions to anyone.
+file: /etc/filebeat/modules.d/auditd.yml.disabled
+
+** Alert 1706267009.26399: - ossec,rootcheck,pci_dss_10.6.1,gdpr_IV_35.7.d,
+2024 Jan 26 11:03:29 wazuh->rootcheck
+Rule: 510 (level 7) -> 'Host-based anomaly detection event (rootcheck).'
+File '/etc/filebeat/modules.d/redis.yml.disabled' is owned by root and has written permissions to anyone.
+title: File is owned by root and has written permissions to anyone.
+file: /etc/filebeat/modules.d/redis.yml.disabled
+
+** Alert 1706267009.26810: - ossec,rootcheck,pci_dss_10.6.1,gdpr_IV_35.7.d,
+2024 Jan 26 11:03:29 wazuh->rootcheck
+Rule: 510 (level 7) -> 'Host-based anomaly detection event (rootcheck).'
+File '/etc/filebeat/modules.d/logstash.yml.disabled' is owned by root and has written permissions to anyone.
+title: File is owned by root and has written permissions to anyone.
+file: /etc/filebeat/modules.d/logstash.yml.disabled
+
+** Alert 1706267009.27227: - ossec,rootcheck,pci_dss_10.6.1,gdpr_IV_35.7.d,
+2024 Jan 26 11:03:29 wazuh->rootcheck
+Rule: 510 (level 7) -> 'Host-based anomaly detection event (rootcheck).'
+File '/etc/filebeat/modules.d/elasticsearch.yml.disabled' is owned by root and has written permissions to anyone.
+title: File is owned by root and has written permissions to anyone.
+file: /etc/filebeat/modules.d/elasticsearch.yml.disabled
+
+** Alert 1706267009.27654: - ossec,rootcheck,pci_dss_10.6.1,gdpr_IV_35.7.d,
+2024 Jan 26 11:03:29 wazuh->rootcheck
+Rule: 510 (level 7) -> 'Host-based anomaly detection event (rootcheck).'
+File '/etc/filebeat/modules.d/iis.yml.disabled' is owned by root and has written permissions to anyone.
+title: File is owned by root and has written permissions to anyone.
+file: /etc/filebeat/modules.d/iis.yml.disabled
+
+** Alert 1706267009.28061: - ossec,rootcheck,pci_dss_10.6.1,gdpr_IV_35.7.d,
+2024 Jan 26 11:03:29 wazuh->rootcheck
+Rule: 510 (level 7) -> 'Host-based anomaly detection event (rootcheck).'
+File '/var/lib/filebeat/meta.json' is owned by root and has written permissions to anyone.
+title: File is owned by root and has written permissions to anyone.
+file: /var/lib/filebeat/meta.json
+
+** Alert 1706267017.28442: - ossec,pci_dss_10.6.1,gpg13_10.1,gdpr_IV_35.7.d,hipaa_164.312.b,nist_800_53_AU.6,tsc_CC7.2,tsc_CC7.3,
+2024 Jan 26 11:03:37 wazuh->wazuh-monitord
+Rule: 502 (level 3) -> 'Wazuh server started.'
+ossec: Manager started.
+
+** Alert 1706267084.28687: - ossec,rootcheck,pci_dss_10.6.1,gdpr_IV_35.7.d,
+2024 Jan 26 11:04:44 wazuh->rootcheck
+Rule: 510 (level 7) -> 'Host-based anomaly detection event (rootcheck).'
+File '/etc/filebeat/fields.yml' is owned by root and has written permissions to anyone.
+title: File is owned by root and has written permissions to anyone.
+file: /etc/filebeat/fields.yml
+
+** Alert 1706267084.29062: - ossec,rootcheck,pci_dss_10.6.1,gdpr_IV_35.7.d,
+2024 Jan 26 11:04:44 wazuh->rootcheck
+Rule: 510 (level 7) -> 'Host-based anomaly detection event (rootcheck).'
+File '/etc/filebeat/wazuh-template.json' is owned by root and has written permissions to anyone.
+title: File is owned by root and has written permissions to anyone.
+file: /etc/filebeat/wazuh-template.json
+
+** Alert 1706267084.29455: - ossec,rootcheck,pci_dss_10.6.1,gdpr_IV_35.7.d,
+2024 Jan 26 11:04:44 wazuh->rootcheck
+Rule: 510 (level 7) -> 'Host-based anomaly detection event (rootcheck).'
+File '/etc/filebeat/filebeat.reference.yml' is owned by root and has written permissions to anyone.
+title: File is owned by root and has written permissions to anyone.
+file: /etc/filebeat/filebeat.reference.yml
+
+** Alert 1706267084.29854: - ossec,rootcheck,pci_dss_10.6.1,gdpr_IV_35.7.d,
+2024 Jan 26 11:04:44 wazuh->rootcheck
+Rule: 510 (level 7) -> 'Host-based anomaly detection event (rootcheck).'
+File '/etc/filebeat/modules.d/apache.yml.disabled' is owned by root and has written permissions to anyone.
+title: File is owned by root and has written permissions to anyone.
+file: /etc/filebeat/modules.d/apache.yml.disabled
+
+** Alert 1706267084.30267: - ossec,rootcheck,pci_dss_10.6.1,gdpr_IV_35.7.d,
+2024 Jan 26 11:04:44 wazuh->rootcheck
+Rule: 510 (level 7) -> 'Host-based anomaly detection event (rootcheck).'
+File '/etc/filebeat/modules.d/icinga.yml.disabled' is owned by root and has written permissions to anyone.
+title: File is owned by root and has written permissions to anyone.
+file: /etc/filebeat/modules.d/icinga.yml.disabled
+
+** Alert 1706267084.30680: - ossec,rootcheck,pci_dss_10.6.1,gdpr_IV_35.7.d,
+2024 Jan 26 11:04:44 wazuh->rootcheck
+Rule: 510 (level 7) -> 'Host-based anomaly detection event (rootcheck).'
+File '/etc/filebeat/modules.d/nats.yml.disabled' is owned by root and has written permissions to anyone.
+title: File is owned by root and has written permissions to anyone.
+file: /etc/filebeat/modules.d/nats.yml.disabled
+
+** Alert 1706267084.31089: - ossec,rootcheck,pci_dss_10.6.1,gdpr_IV_35.7.d,
+2024 Jan 26 11:04:44 wazuh->rootcheck
+Rule: 510 (level 7) -> 'Host-based anomaly detection event (rootcheck).'
+File '/etc/filebeat/modules.d/system.yml.disabled' is owned by root and has written permissions to anyone.
+title: File is owned by root and has written permissions to anyone.
+file: /etc/filebeat/modules.d/system.yml.disabled
+
+** Alert 1706267084.31502: - ossec,rootcheck,pci_dss_10.6.1,gdpr_IV_35.7.d,
+2024 Jan 26 11:04:44 wazuh->rootcheck
+Rule: 510 (level 7) -> 'Host-based anomaly detection event (rootcheck).'
+File '/etc/filebeat/modules.d/postgresql.yml.disabled' is owned by root and has written permissions to anyone.
+title: File is owned by root and has written permissions to anyone.
+file: /etc/filebeat/modules.d/postgresql.yml.disabled
+
+** Alert 1706267084.31923: - ossec,rootcheck,pci_dss_10.6.1,gdpr_IV_35.7.d,
+2024 Jan 26 11:04:44 wazuh->rootcheck
+Rule: 510 (level 7) -> 'Host-based anomaly detection event (rootcheck).'
+File '/etc/filebeat/modules.d/traefik.yml.disabled' is owned by root and has written permissions to anyone.
+title: File is owned by root and has written permissions to anyone.
+file: /etc/filebeat/modules.d/traefik.yml.disabled
+
+** Alert 1706267084.32338: - ossec,rootcheck,pci_dss_10.6.1,gdpr_IV_35.7.d,
+2024 Jan 26 11:04:44 wazuh->rootcheck
+Rule: 510 (level 7) -> 'Host-based anomaly detection event (rootcheck).'
+File '/etc/filebeat/modules.d/mysql.yml.disabled' is owned by root and has written permissions to anyone.
+title: File is owned by root and has written permissions to anyone.
+file: /etc/filebeat/modules.d/mysql.yml.disabled
+
+** Alert 1706267084.32749: - ossec,rootcheck,pci_dss_10.6.1,gdpr_IV_35.7.d,
+2024 Jan 26 11:04:44 wazuh->rootcheck
+Rule: 510 (level 7) -> 'Host-based anomaly detection event (rootcheck).'
+File '/etc/filebeat/modules.d/mongodb.yml.disabled' is owned by root and has written permissions to anyone.
+title: File is owned by root and has written permissions to anyone.
+file: /etc/filebeat/modules.d/mongodb.yml.disabled
+
+** Alert 1706267084.33164: - ossec,rootcheck,pci_dss_10.6.1,gdpr_IV_35.7.d,
+2024 Jan 26 11:04:44 wazuh->rootcheck
+Rule: 510 (level 7) -> 'Host-based anomaly detection event (rootcheck).'
+File '/etc/filebeat/modules.d/kibana.yml.disabled' is owned by root and has written permissions to anyone.
+title: File is owned by root and has written permissions to anyone.
+file: /etc/filebeat/modules.d/kibana.yml.disabled
+
+** Alert 1706267084.33577: - ossec,rootcheck,pci_dss_10.6.1,gdpr_IV_35.7.d,
+2024 Jan 26 11:04:44 wazuh->rootcheck
+Rule: 510 (level 7) -> 'Host-based anomaly detection event (rootcheck).'
+File '/etc/filebeat/modules.d/osquery.yml.disabled' is owned by root and has written permissions to anyone.
+title: File is owned by root and has written permissions to anyone.
+file: /etc/filebeat/modules.d/osquery.yml.disabled
+
+** Alert 1706267084.33992: - ossec,rootcheck,pci_dss_10.6.1,gdpr_IV_35.7.d,
+2024 Jan 26 11:04:44 wazuh->rootcheck
+Rule: 510 (level 7) -> 'Host-based anomaly detection event (rootcheck).'
+File '/etc/filebeat/modules.d/kafka.yml.disabled' is owned by root and has written permissions to anyone.
+title: File is owned by root and has written permissions to anyone.
+file: /etc/filebeat/modules.d/kafka.yml.disabled
+
+** Alert 1706267084.34403: - ossec,rootcheck,pci_dss_10.6.1,gdpr_IV_35.7.d,
+2024 Jan 26 11:04:44 wazuh->rootcheck
+Rule: 510 (level 7) -> 'Host-based anomaly detection event (rootcheck).'
+File '/etc/filebeat/modules.d/santa.yml.disabled' is owned by root and has written permissions to anyone.
+title: File is owned by root and has written permissions to anyone.
+file: /etc/filebeat/modules.d/santa.yml.disabled
+
+** Alert 1706267084.34814: - ossec,rootcheck,pci_dss_10.6.1,gdpr_IV_35.7.d,
+2024 Jan 26 11:04:44 wazuh->rootcheck
+Rule: 510 (level 7) -> 'Host-based anomaly detection event (rootcheck).'
+File '/etc/filebeat/modules.d/haproxy.yml.disabled' is owned by root and has written permissions to anyone.
+title: File is owned by root and has written permissions to anyone.
+file: /etc/filebeat/modules.d/haproxy.yml.disabled
+
+** Alert 1706267084.35229: - ossec,rootcheck,pci_dss_10.6.1,gdpr_IV_35.7.d,
+2024 Jan 26 11:04:44 wazuh->rootcheck
+Rule: 510 (level 7) -> 'Host-based anomaly detection event (rootcheck).'
+File '/etc/filebeat/modules.d/nginx.yml.disabled' is owned by root and has written permissions to anyone.
+title: File is owned by root and has written permissions to anyone.
+file: /etc/filebeat/modules.d/nginx.yml.disabled
+
+** Alert 1706267084.35640: - ossec,rootcheck,pci_dss_10.6.1,gdpr_IV_35.7.d,
+2024 Jan 26 11:04:44 wazuh->rootcheck
+Rule: 510 (level 7) -> 'Host-based anomaly detection event (rootcheck).'
+File '/etc/filebeat/modules.d/auditd.yml.disabled' is owned by root and has written permissions to anyone.
+title: File is owned by root and has written permissions to anyone.
+file: /etc/filebeat/modules.d/auditd.yml.disabled
+
+** Alert 1706267084.36053: - ossec,rootcheck,pci_dss_10.6.1,gdpr_IV_35.7.d,
+2024 Jan 26 11:04:44 wazuh->rootcheck
+Rule: 510 (level 7) -> 'Host-based anomaly detection event (rootcheck).'
+File '/etc/filebeat/modules.d/redis.yml.disabled' is owned by root and has written permissions to anyone.
+title: File is owned by root and has written permissions to anyone.
+file: /etc/filebeat/modules.d/redis.yml.disabled
+
+** Alert 1706267084.36464: - ossec,rootcheck,pci_dss_10.6.1,gdpr_IV_35.7.d,
+2024 Jan 26 11:04:44 wazuh->rootcheck
+Rule: 510 (level 7) -> 'Host-based anomaly detection event (rootcheck).'
+File '/etc/filebeat/modules.d/logstash.yml.disabled' is owned by root and has written permissions to anyone.
+title: File is owned by root and has written permissions to anyone.
+file: /etc/filebeat/modules.d/logstash.yml.disabled
+
+** Alert 1706267084.36881: - ossec,rootcheck,pci_dss_10.6.1,gdpr_IV_35.7.d,
+2024 Jan 26 11:04:44 wazuh->rootcheck
+Rule: 510 (level 7) -> 'Host-based anomaly detection event (rootcheck).'
+File '/etc/filebeat/modules.d/elasticsearch.yml.disabled' is owned by root and has written permissions to anyone.
+title: File is owned by root and has written permissions to anyone.
+file: /etc/filebeat/modules.d/elasticsearch.yml.disabled
+
+** Alert 1706267084.37308: - ossec,rootcheck,pci_dss_10.6.1,gdpr_IV_35.7.d,
+2024 Jan 26 11:04:44 wazuh->rootcheck
+Rule: 510 (level 7) -> 'Host-based anomaly detection event (rootcheck).'
+File '/etc/filebeat/modules.d/iis.yml.disabled' is owned by root and has written permissions to anyone.
+title: File is owned by root and has written permissions to anyone.
+file: /etc/filebeat/modules.d/iis.yml.disabled
+
+** Alert 1706267084.37715: - ossec,rootcheck,pci_dss_10.6.1,gdpr_IV_35.7.d,
+2024 Jan 26 11:04:44 wazuh->rootcheck
+Rule: 510 (level 7) -> 'Host-based anomaly detection event (rootcheck).'
+File '/var/lib/filebeat/meta.json' is owned by root and has written permissions to anyone.
+title: File is owned by root and has written permissions to anyone.
+file: /var/lib/filebeat/meta.json
+
+** Alert 1706267093.38096: - ossec,pci_dss_10.6.1,gpg13_10.1,gdpr_IV_35.7.d,hipaa_164.312.b,nist_800_53_AU.6,tsc_CC7.2,tsc_CC7.3,
+2024 Jan 26 11:04:53 wazuh->wazuh-monitord
+Rule: 502 (level 3) -> 'Wazuh server started.'
+ossec: Manager started.
+

@@ -1,0 +1,203 @@
+2024/01/26 10:34:23 INFO: wazuh-wui 172.19.0.3 "POST /security/user/authenticate" with parameters {} and body {} done in 1.184s: 200
+2024/01/26 10:34:24 INFO: wazuh-wui 172.19.0.3 "GET /cluster/status" with parameters {} and body {} done in 0.190s: 200
+2024/01/26 10:34:24 INFO: wazuh-wui 172.19.0.3 "GET /agents" with parameters {"offset": "0", "limit": "1", "q": "id!=000"} and body {} done in 0.023s: 200
+2024/01/26 10:35:00 INFO: wazuh-wui 172.19.0.3 "GET /manager/stats/analysisd" with parameters {} and body {} done in 0.038s: 200
+2024/01/26 10:35:00 INFO: wazuh-wui 172.19.0.3 "GET /manager/stats/remoted" with parameters {} and body {} done in 0.023s: 200
+2024/01/26 10:37:42 INFO: wazuh-wui 172.19.0.3 "POST /security/user/authenticate" with parameters {} and body {} done in 1.695s: 200
+2024/01/26 10:37:42 INFO: wazuh-wui 172.19.0.3 "POST /security/user/authenticate" with parameters {} and body {} done in 1.235s: 200
+2024/01/26 10:37:42 INFO: wazuh-wui 172.19.0.3 "POST /security/user/authenticate" with parameters {} and body {} done in 0.664s: 200
+2024/01/26 10:37:42 INFO: wazuh-wui 172.19.0.3 "GET /security/users/me/policies" with parameters {} and body {"idHost": "1513629884013"} done in 0.010s: 200
+2024/01/26 10:37:42 INFO: wazuh-wui 172.19.0.3 "GET /manager/info" with parameters {} and body {} done in 0.074s: 200
+2024/01/26 10:37:42 INFO: wazuh-wui 172.19.0.3 "GET /manager/info" with parameters {} and body {} done in 0.024s: 200
+2024/01/26 10:37:42 INFO: wazuh-wui 172.19.0.3 "GET /agents" with parameters {"agents_list": "000"} and body {} done in 0.023s: 200
+2024/01/26 10:37:42 INFO: wazuh-wui 172.19.0.3 "GET /agents" with parameters {"agents_list": "000"} and body {} done in 0.016s: 200
+2024/01/26 10:37:42 INFO: wazuh-wui 172.19.0.3 "GET /cluster/status" with parameters {} and body {} done in 0.023s: 200
+2024/01/26 10:37:42 INFO: wazuh-wui 172.19.0.3 "GET /cluster/status" with parameters {} and body {} done in 0.017s: 200
+2024/01/26 10:37:45 INFO: wazuh-wui 172.19.0.3 "GET /" with parameters {} and body {} done in 3.147s: 200
+2024/01/26 10:37:45 INFO: wazuh-wui 172.19.0.3 "GET /" with parameters {} and body {} done in 0.010s: 200
+2024/01/26 10:37:46 INFO: wazuh-wui 172.19.0.3 "GET /cluster/status" with parameters {} and body {} done in 0.015s: 200
+2024/01/26 10:37:46 INFO: wazuh-wui 172.19.0.3 "GET /agents/summary/status" with parameters {} and body {} done in 0.016s: 200
+2024/01/26 10:37:46 INFO: wazuh-wui 172.19.0.3 "GET /manager/api/config" with parameters {} and body {} done in 0.011s: 200
+2024/01/26 10:37:46 INFO: wazuh-wui 172.19.0.3 "GET /cluster/status" with parameters {} and body {} done in 0.016s: 200
+2024/01/26 10:37:46 INFO: wazuh-wui 172.19.0.3 "GET /manager/configuration/request/remote" with parameters {} and body {} done in 0.012s: 200
+2024/01/26 10:37:46 INFO: wazuh-wui 172.19.0.3 "GET /manager/configuration/auth/auth" with parameters {} and body {} done in 0.012s: 200
+2024/01/26 10:37:46 INFO: wazuh-wui 172.19.0.3 "GET /groups" with parameters {} and body {} done in 0.014s: 200
+2024/01/26 10:40:00 INFO: wazuh-wui 172.19.0.3 "GET /manager/stats/remoted" with parameters {} and body {} done in 0.021s: 200
+2024/01/26 10:40:00 INFO: wazuh-wui 172.19.0.3 "GET /manager/stats/analysisd" with parameters {} and body {} done in 0.012s: 200
+2024/01/26 10:45:00 INFO: wazuh-wui 172.19.0.3 "GET /manager/stats/remoted" with parameters {} and body {} done in 0.024s: 200
+2024/01/26 10:45:00 INFO: wazuh-wui 172.19.0.3 "GET /manager/stats/analysisd" with parameters {} and body {} done in 0.027s: 200
+2024/01/26 10:45:00 INFO: wazuh-wui 172.19.0.3 "GET /cluster/status" with parameters {} and body {} done in 0.023s: 200
+2024/01/26 10:45:00 INFO: wazuh-wui 172.19.0.3 "GET /cluster/local/info" with parameters {} and body {} done in 0.012s: 400
+2024/01/26 10:45:17 INFO: wazuh-wui 172.19.0.3 "POST /security/user/authenticate" with parameters {} and body {} done in 0.560s: 200
+2024/01/26 10:45:17 INFO: wazuh-wui 172.19.0.3 "GET /manager/info" with parameters {} and body {} done in 0.046s: 200
+2024/01/26 10:45:17 INFO: wazuh-wui 172.19.0.3 "GET /agents" with parameters {"agents_list": "000"} and body {} done in 0.014s: 200
+2024/01/26 10:45:17 INFO: wazuh-wui 172.19.0.3 "GET /cluster/status" with parameters {} and body {} done in 0.015s: 200
+2024/01/26 10:45:17 INFO: wazuh-wui 172.19.0.3 "GET /security/users/me" with parameters {} and body {} done in 0.197s: 200
+2024/01/26 10:45:17 INFO: wazuh-wui 172.19.0.3 "GET /cluster/local/info" with parameters {} and body {} done in 0.008s: 400
+2024/01/26 10:45:18 INFO: wazuh-wui 172.19.0.3 "POST /security/user/authenticate" with parameters {} and body {} done in 0.513s: 200
+2024/01/26 10:45:18 INFO: wazuh-wui 172.19.0.3 "GET /manager/info" with parameters {} and body {} done in 0.046s: 200
+2024/01/26 10:45:18 INFO: wazuh-wui 172.19.0.3 "GET /agents" with parameters {"agents_list": "000"} and body {} done in 0.013s: 200
+2024/01/26 10:45:18 INFO: wazuh-wui 172.19.0.3 "GET /cluster/status" with parameters {} and body {} done in 0.015s: 200
+2024/01/26 10:45:18 INFO: wazuh-wui 172.19.0.3 "GET /security/users/me" with parameters {} and body {} done in 0.154s: 200
+2024/01/26 10:45:18 INFO: wazuh-wui 172.19.0.3 "GET /cluster/local/info" with parameters {} and body {} done in 0.008s: 400
+2024/01/26 10:45:31 INFO: wazuh-wui 172.19.0.3 "GET /manager/info" with parameters {} and body {} done in 0.012s: 200
+2024/01/26 10:45:31 INFO: wazuh-wui 172.19.0.3 "GET /agents" with parameters {"agents_list": "000"} and body {} done in 0.014s: 200
+2024/01/26 10:45:31 INFO: wazuh-wui 172.19.0.3 "GET /cluster/status" with parameters {} and body {} done in 0.014s: 200
+2024/01/26 10:45:31 INFO: wazuh-wui 172.19.0.3 "GET /security/users/me" with parameters {} and body {} done in 0.155s: 200
+2024/01/26 10:45:31 INFO: wazuh-wui 172.19.0.3 "GET /cluster/local/info" with parameters {} and body {} done in 0.008s: 400
+2024/01/26 10:45:31 INFO: wazuh-wui 172.19.0.3 "GET /manager/info" with parameters {} and body {} done in 0.012s: 200
+2024/01/26 10:45:31 INFO: wazuh-wui 172.19.0.3 "GET /agents" with parameters {"agents_list": "000"} and body {} done in 0.013s: 200
+2024/01/26 10:45:31 INFO: wazuh-wui 172.19.0.3 "GET /cluster/status" with parameters {} and body {} done in 0.016s: 200
+2024/01/26 10:45:32 INFO: wazuh-wui 172.19.0.3 "GET /security/users/me" with parameters {} and body {} done in 0.203s: 200
+2024/01/26 10:45:32 INFO: wazuh-wui 172.19.0.3 "GET /cluster/local/info" with parameters {} and body {} done in 0.009s: 400
+2024/01/26 10:45:32 INFO: wazuh-wui 172.19.0.3 "POST /security/user/authenticate" with parameters {} and body {} done in 0.536s: 200
+2024/01/26 10:45:32 INFO: wazuh-wui 172.19.0.3 "GET /manager/info" with parameters {} and body {} done in 0.047s: 200
+2024/01/26 10:45:32 INFO: wazuh-wui 172.19.0.3 "GET /agents" with parameters {"agents_list": "000"} and body {} done in 0.017s: 200
+2024/01/26 10:45:32 INFO: wazuh-wui 172.19.0.3 "GET /cluster/status" with parameters {} and body {} done in 0.021s: 200
+2024/01/26 10:45:33 INFO: wazuh-wui 172.19.0.3 "GET /security/users/me" with parameters {} and body {} done in 0.206s: 200
+2024/01/26 10:45:33 INFO: wazuh-wui 172.19.0.3 "GET /cluster/local/info" with parameters {} and body {} done in 0.009s: 400
+2024/01/26 10:45:40 INFO: wazuh-wui 172.19.0.3 "POST /security/user/authenticate" with parameters {} and body {} done in 0.521s: 200
+2024/01/26 10:45:40 INFO: wazuh-wui 172.19.0.3 "GET /manager/info" with parameters {} and body {} done in 0.047s: 200
+2024/01/26 10:45:40 INFO: wazuh-wui 172.19.0.3 "GET /agents" with parameters {"agents_list": "000"} and body {} done in 0.013s: 200
+2024/01/26 10:45:40 INFO: wazuh-wui 172.19.0.3 "GET /cluster/status" with parameters {} and body {} done in 0.015s: 200
+2024/01/26 10:45:40 INFO: wazuh-wui 172.19.0.3 "GET /security/users/me" with parameters {} and body {} done in 0.156s: 200
+2024/01/26 10:45:40 INFO: wazuh-wui 172.19.0.3 "GET /cluster/local/info" with parameters {} and body {} done in 0.008s: 400
+2024/01/26 10:45:42 INFO: wazuh-wui 172.19.0.3 "POST /security/user/authenticate" with parameters {} and body {} done in 0.507s: 200
+2024/01/26 10:45:42 INFO: wazuh-wui 172.19.0.3 "GET /manager/info" with parameters {} and body {} done in 0.047s: 200
+2024/01/26 10:45:42 INFO: wazuh-wui 172.19.0.3 "GET /agents" with parameters {"agents_list": "000"} and body {} done in 0.013s: 200
+2024/01/26 10:45:42 INFO: wazuh-wui 172.19.0.3 "GET /cluster/status" with parameters {} and body {} done in 0.015s: 200
+2024/01/26 10:45:42 INFO: wazuh-wui 172.19.0.3 "GET /security/users/me" with parameters {} and body {} done in 0.154s: 200
+2024/01/26 10:45:42 INFO: wazuh-wui 172.19.0.3 "GET /cluster/local/info" with parameters {} and body {} done in 0.009s: 400
+2024/01/26 10:46:26 INFO: Checking RBAC database integrity...
+2024/01/26 10:46:26 INFO: /var/ossec/api/configuration/security/rbac.db file was detected
+2024/01/26 10:46:26 INFO: RBAC database integrity check finished successfully
+2024/01/26 10:46:32 INFO: Listening on 0.0.0.0:55000..
+2024/01/26 10:46:49 INFO: Checking RBAC database integrity...
+2024/01/26 10:46:49 INFO: /var/ossec/api/configuration/security/rbac.db file was detected
+2024/01/26 10:46:49 INFO: RBAC database integrity check finished successfully
+2024/01/26 10:46:59 INFO: Listening on 0.0.0.0:55000..
+2024/01/26 10:47:07 INFO: wazuh-wui 172.19.0.3 "POST /security/user/authenticate" with parameters {} and body {} done in 0.613s: 200
+2024/01/26 10:47:07 INFO: wazuh-wui 172.19.0.3 "GET /cluster/status" with parameters {} and body {} done in 0.078s: 200
+2024/01/26 10:47:07 INFO: wazuh-wui 172.19.0.3 "GET /agents" with parameters {"offset": "0", "limit": "1", "q": "id!=000"} and body {} done in 0.016s: 200
+2024/01/26 10:48:54 INFO: wazuh-wui 172.19.0.3 "POST /security/user/authenticate" with parameters {} and body {} done in 0.635s: 200
+2024/01/26 10:48:54 INFO: wazuh-wui 172.19.0.3 "GET /manager/info" with parameters {} and body {} done in 0.060s: 200
+2024/01/26 10:48:54 INFO: wazuh-wui 172.19.0.3 "GET /agents" with parameters {"agents_list": "000"} and body {} done in 0.014s: 200
+2024/01/26 10:48:54 INFO: wazuh-wui 172.19.0.3 "GET /cluster/status" with parameters {} and body {} done in 0.015s: 200
+2024/01/26 10:48:54 INFO: wazuh-wui 172.19.0.3 "GET /security/users/me" with parameters {} and body {} done in 0.256s: 200
+2024/01/26 10:48:55 INFO: wazuh-wui 172.19.0.3 "POST /security/user/authenticate" with parameters {} and body {} done in 0.512s: 200
+2024/01/26 10:48:55 INFO: wazuh-wui 172.19.0.3 "GET /manager/info" with parameters {} and body {} done in 0.046s: 200
+2024/01/26 10:48:55 INFO: wazuh-wui 172.19.0.3 "GET /agents" with parameters {"agents_list": "000"} and body {} done in 0.013s: 200
+2024/01/26 10:48:55 INFO: wazuh-wui 172.19.0.3 "GET /cluster/status" with parameters {} and body {} done in 0.014s: 200
+2024/01/26 10:48:55 INFO: unknown_user 172.19.0.3 "GET /" with parameters {} and body {} done in 0.030s: 401
+2024/01/26 10:48:55 INFO: unknown_user 172.19.0.3 "GET /security/users/me/policies" with parameters {} and body {"idHost": "1513629884013"} done in 0.010s: 401
+2024/01/26 10:48:56 INFO: unknown_user 172.19.0.3 "GET /security/users/me/policies" with parameters {} and body {"idHost": "1513629884013"} done in 0.141s: 401
+2024/01/26 10:48:56 INFO: wazuh-wui 172.19.0.3 "POST /security/user/authenticate" with parameters {} and body {} done in 1.069s: 200
+2024/01/26 10:48:56 INFO: wazuh-wui 172.19.0.3 "POST /security/user/authenticate" with parameters {} and body {} done in 0.701s: 200
+2024/01/26 10:48:56 INFO: wazuh-wui 172.19.0.3 "GET /manager/info" with parameters {} and body {} done in 0.061s: 200
+2024/01/26 10:48:56 INFO: wazuh-wui 172.19.0.3 "GET /manager/info" with parameters {} and body {} done in 0.379s: 200
+2024/01/26 10:48:56 INFO: wazuh-wui 172.19.0.3 "POST /security/user/authenticate" with parameters {} and body {} done in 0.532s: 200
+2024/01/26 10:48:56 INFO: wazuh-wui 172.19.0.3 "GET /agents" with parameters {"agents_list": "000"} and body {} done in 0.157s: 200
+2024/01/26 10:48:56 INFO: wazuh-wui 172.19.0.3 "GET /agents" with parameters {"agents_list": "000"} and body {} done in 0.018s: 200
+2024/01/26 10:48:56 INFO: wazuh-wui 172.19.0.3 "GET /manager/info" with parameters {} and body {} done in 0.031s: 200
+2024/01/26 10:48:56 INFO: wazuh-wui 172.19.0.3 "GET /cluster/status" with parameters {} and body {} done in 0.022s: 200
+2024/01/26 10:48:56 INFO: wazuh-wui 172.19.0.3 "GET /cluster/status" with parameters {} and body {} done in 0.026s: 200
+2024/01/26 10:48:56 INFO: wazuh-wui 172.19.0.3 "GET /agents" with parameters {"agents_list": "000"} and body {} done in 0.012s: 200
+2024/01/26 10:48:57 INFO: wazuh-wui 172.19.0.3 "GET /cluster/status" with parameters {} and body {} done in 0.016s: 200
+2024/01/26 10:48:58 INFO: wazuh-wui 172.19.0.3 "POST /security/user/authenticate" with parameters {} and body {} done in 1.515s: 200
+2024/01/26 10:48:58 INFO: wazuh-wui 172.19.0.3 "POST /security/user/authenticate" with parameters {} and body {} done in 1.147s: 200
+2024/01/26 10:48:58 INFO: wazuh-wui 172.19.0.3 "POST /security/user/authenticate" with parameters {} and body {} done in 0.654s: 200
+2024/01/26 10:48:58 INFO: wazuh-wui 172.19.0.3 "GET /security/users/me/policies" with parameters {} and body {"idHost": "1513629884013"} done in 0.050s: 200
+2024/01/26 10:48:58 INFO: wazuh-wui 172.19.0.3 "GET /security/users/me/policies" with parameters {} and body {"idHost": "1513629884013"} done in 0.010s: 200
+2024/01/26 10:48:58 INFO: wazuh-wui 172.19.0.3 "GET /security/users/me/policies" with parameters {} and body {"idHost": "1513629884013"} done in 0.010s: 200
+2024/01/26 10:49:01 INFO: wazuh-wui 172.19.0.3 "GET /" with parameters {} and body {} done in 3.179s: 200
+2024/01/26 10:49:01 INFO: wazuh-wui 172.19.0.3 "GET /security/users/me/policies" with parameters {} and body {"idHost": "1513629884013"} done in 0.009s: 200
+2024/01/26 10:49:01 INFO: wazuh-wui 172.19.0.3 "GET /security/users/me/policies" with parameters {} and body {"idHost": "1513629884013"} done in 0.009s: 200
+2024/01/26 10:49:03 INFO: wazuh-wui 172.19.0.3 "POST /security/user/authenticate" with parameters {} and body {} done in 0.518s: 200
+2024/01/26 10:49:03 INFO: wazuh-wui 172.19.0.3 "GET /manager/info" with parameters {} and body {} done in 0.045s: 200
+2024/01/26 10:49:03 INFO: wazuh-wui 172.19.0.3 "GET /agents" with parameters {"agents_list": "000"} and body {} done in 0.013s: 200
+2024/01/26 10:49:03 INFO: wazuh-wui 172.19.0.3 "GET /cluster/status" with parameters {} and body {} done in 0.015s: 200
+2024/01/26 10:49:03 INFO: wazuh-wui 172.19.0.3 "GET /security/users/me" with parameters {} and body {} done in 0.157s: 200
+2024/01/26 10:49:03 INFO: wazuh-wui 172.19.0.3 "POST /security/user/authenticate" with parameters {} and body {} done in 0.503s: 200
+2024/01/26 10:49:03 INFO: wazuh-wui 172.19.0.3 "GET /manager/info" with parameters {} and body {} done in 0.012s: 200
+2024/01/26 10:49:03 INFO: wazuh-wui 172.19.0.3 "GET /agents" with parameters {"agents_list": "000"} and body {} done in 0.013s: 200
+2024/01/26 10:49:04 INFO: wazuh-wui 172.19.0.3 "GET /cluster/status" with parameters {} and body {} done in 0.014s: 200
+2024/01/26 10:49:04 INFO: wazuh-wui 172.19.0.3 "GET /security/users/me" with parameters {} and body {} done in 0.155s: 200
+2024/01/26 10:49:44 INFO: wazuh-wui 172.19.0.3 "GET /cluster/status" with parameters {} and body {} done in 0.018s: 200
+2024/01/26 10:49:44 INFO: wazuh-wui 172.19.0.3 "GET /agents" with parameters {"agents_list": "000"} and body {} done in 0.015s: 200
+2024/01/26 10:49:46 INFO: wazuh-wui 172.19.0.3 "GET /cluster/status" with parameters {} and body {} done in 0.016s: 200
+2024/01/26 10:49:46 INFO: wazuh-wui 172.19.0.3 "GET /manager/configuration" with parameters {"raw": "true"} and body {} done in 0.011s: 200
+2024/01/26 10:50:00 INFO: wazuh-wui 172.19.0.3 "GET /manager/stats/remoted" with parameters {} and body {} done in 0.022s: 200
+2024/01/26 10:50:00 INFO: wazuh-wui 172.19.0.3 "GET /manager/stats/analysisd" with parameters {} and body {} done in 0.013s: 200
+2024/01/26 10:55:00 INFO: wazuh-wui 172.19.0.3 "GET /manager/stats/remoted" with parameters {} and body {} done in 0.020s: 200
+2024/01/26 10:55:00 INFO: wazuh-wui 172.19.0.3 "GET /manager/stats/analysisd" with parameters {} and body {} done in 0.012s: 200
+2024/01/26 11:00:00 INFO: wazuh-wui 172.19.0.3 "GET /manager/stats/remoted" with parameters {} and body {} done in 0.033s: 200
+2024/01/26 11:00:00 INFO: wazuh-wui 172.19.0.3 "GET /manager/stats/analysisd" with parameters {} and body {} done in 0.023s: 200
+2024/01/26 11:00:00 INFO: wazuh-wui 172.19.0.3 "GET /cluster/status" with parameters {} and body {} done in 0.017s: 200
+2024/01/26 11:00:00 INFO: wazuh-wui 172.19.0.3 "GET /agents" with parameters {"offset": "0", "limit": "1", "q": "id!=000"} and body {} done in 0.019s: 200
+2024/01/26 11:03:08 INFO: wazuh-wui 172.19.0.3 "GET /cluster/status" with parameters {} and body {} done in 0.016s: 200
+2024/01/26 11:03:09 INFO: wazuh-wui 172.19.0.3 "GET /agents" with parameters {"agents_list": "000"} and body {} done in 0.014s: 200
+2024/01/26 11:03:10 INFO: wazuh-wui 172.19.0.3 "GET /cluster/status" with parameters {} and body {} done in 0.015s: 200
+2024/01/26 11:03:10 INFO: wazuh-wui 172.19.0.3 "GET /manager/configuration" with parameters {"raw": "true"} and body {} done in 0.011s: 200
+2024/01/26 11:03:15 INFO: wazuh-wui 172.19.0.3 "GET /cluster/status" with parameters {} and body {} done in 0.018s: 200
+2024/01/26 11:03:16 INFO: wazuh-wui 172.19.0.3 "GET /manager/configuration/validation" with parameters {} and body {} done in 1.296s: 200
+2024/01/26 11:03:16 INFO: wazuh-wui 172.19.0.3 "PUT /manager/restart" with parameters {} and body {} done in 0.013s: 200
+2024/01/26 11:03:18 INFO: unknown_user 172.19.0.3 "GET /manager/status" with parameters {} and body {} done in 0.006s: 400
+2024/01/26 11:03:20 INFO: unknown_user 172.19.0.3 "GET /manager/status" with parameters {} and body {} done in 0.005s: 400
+2024/01/26 11:03:23 INFO: Checking RBAC database integrity...
+2024/01/26 11:03:23 INFO: /var/ossec/api/configuration/security/rbac.db file was detected
+2024/01/26 11:03:23 INFO: RBAC database integrity check finished successfully
+2024/01/26 11:03:29 INFO: Listening on 0.0.0.0:55000..
+2024/01/26 11:03:31 INFO: unknown_user 172.19.0.3 "GET /manager/status" with parameters {} and body {} done in 0.118s: 400
+2024/01/26 11:03:33 INFO: wazuh-wui 172.19.0.3 "GET /manager/status" with parameters {} and body {} done in 0.318s: 200
+2024/01/26 11:03:33 INFO: wazuh-wui 172.19.0.3 "GET /cluster/status" with parameters {} and body {} done in 0.020s: 200
+2024/01/26 11:03:45 INFO: wazuh-wui 172.19.0.3 "GET /rules" with parameters {"offset": "0", "limit": "10", "sort": "+id"} and body {} done in 0.949s: 200
+2024/01/26 11:03:56 INFO: wazuh-wui 172.19.0.3 "GET /rules" with parameters {"q": "relative_dirname=etc/rules", "offset": "0", "limit": "10", "sort": "+id"} and body {} done in 1.046s: 200
+2024/01/26 11:03:56 INFO: wazuh-wui 172.19.0.3 "GET /rules" with parameters {"distinct": "true", "limit": "30", "select": "relative_dirname", "sort": "+relative_dirname", "q": "relative_dirname~etc/rules"} and body {} done in 1.464s: 200
+2024/01/26 11:04:35 INFO: Checking RBAC database integrity...
+2024/01/26 11:04:35 INFO: /var/ossec/api/configuration/security/rbac.db file was detected
+2024/01/26 11:04:35 INFO: RBAC database integrity check finished successfully
+2024/01/26 11:04:44 INFO: Listening on 0.0.0.0:55000..
+2024/01/26 11:04:54 INFO: wazuh-wui 172.19.0.3 "POST /security/user/authenticate" with parameters {} and body {} done in 0.703s: 200
+2024/01/26 11:04:54 INFO: wazuh-wui 172.19.0.3 "GET /cluster/status" with parameters {} and body {} done in 0.093s: 200
+2024/01/26 11:04:54 INFO: wazuh-wui 172.19.0.3 "GET /agents" with parameters {"offset": "0", "limit": "1", "q": "id!=000"} and body {} done in 0.017s: 200
+2024/01/26 11:05:00 INFO: wazuh-wui 172.19.0.3 "GET /manager/stats/remoted" with parameters {} and body {} done in 0.023s: 200
+2024/01/26 11:05:00 INFO: wazuh-wui 172.19.0.3 "GET /manager/stats/analysisd" with parameters {} and body {} done in 0.014s: 200
+2024/01/26 11:06:16 INFO: wazuh-wui 172.19.0.3 "POST /security/user/authenticate" with parameters {} and body {} done in 1.020s: 200
+2024/01/26 11:06:16 INFO: wazuh-wui 172.19.0.3 "POST /security/user/authenticate" with parameters {} and body {} done in 0.646s: 200
+2024/01/26 11:06:16 INFO: wazuh-wui 172.19.0.3 "GET /security/users/me/policies" with parameters {} and body {"idHost": "1513629884013"} done in 0.009s: 200
+2024/01/26 11:06:16 INFO: wazuh-wui 172.19.0.3 "GET /manager/info" with parameters {} and body {} done in 0.070s: 200
+2024/01/26 11:06:16 INFO: wazuh-wui 172.19.0.3 "GET /agents" with parameters {"agents_list": "000"} and body {} done in 0.013s: 200
+2024/01/26 11:06:16 INFO: wazuh-wui 172.19.0.3 "GET /cluster/status" with parameters {} and body {} done in 0.015s: 200
+2024/01/26 11:06:17 INFO: wazuh-wui 172.19.0.3 "GET /rules" with parameters {"offset": "0", "limit": "10", "sort": "+id"} and body {} done in 0.953s: 200
+2024/01/26 11:06:27 INFO: wazuh-wui 172.19.0.3 "GET /" with parameters {} and body {} done in 3.190s: 200
+2024/01/26 11:06:27 INFO: wazuh-wui 172.19.0.3 "GET /agents/summary/status" with parameters {} and body {} done in 0.023s: 200
+2024/01/26 11:06:27 INFO: wazuh-wui 172.19.0.3 "GET /agents" with parameters {"limit": "1", "sort": "-dateAdd", "q": "id!=000"} and body {} done in 0.015s: 200
+2024/01/26 11:06:27 INFO: wazuh-wui 172.19.0.3 "GET /cluster/status" with parameters {} and body {} done in 0.017s: 200
+2024/01/26 11:06:27 INFO: wazuh-wui 172.19.0.3 "GET /manager/api/config" with parameters {} and body {} done in 0.018s: 200
+2024/01/26 11:06:27 INFO: wazuh-wui 172.19.0.3 "GET /cluster/status" with parameters {} and body {} done in 0.017s: 200
+2024/01/26 11:06:27 INFO: wazuh-wui 172.19.0.3 "GET /manager/configuration/request/remote" with parameters {} and body {} done in 0.014s: 200
+2024/01/26 11:06:27 INFO: wazuh-wui 172.19.0.3 "GET /manager/configuration/auth/auth" with parameters {} and body {} done in 0.014s: 200
+2024/01/26 11:06:27 INFO: wazuh-wui 172.19.0.3 "GET /groups" with parameters {} and body {} done in 0.015s: 200
+2024/01/26 11:06:35 INFO: wazuh-wui 172.19.0.3 "GET /" with parameters {} and body {} done in 0.010s: 200
+2024/01/26 11:06:35 INFO: wazuh-wui 172.19.0.3 "GET /agents/summary/status" with parameters {} and body {} done in 0.015s: 200
+2024/01/26 11:06:35 INFO: wazuh-wui 172.19.0.3 "GET /cluster/status" with parameters {} and body {} done in 0.016s: 200
+2024/01/26 11:06:35 INFO: wazuh-wui 172.19.0.3 "GET /manager/api/config" with parameters {} and body {} done in 0.013s: 200
+2024/01/26 11:06:35 INFO: wazuh-wui 172.19.0.3 "GET /cluster/status" with parameters {} and body {} done in 0.019s: 200
+2024/01/26 11:06:35 INFO: wazuh-wui 172.19.0.3 "GET /manager/configuration/request/remote" with parameters {} and body {} done in 0.013s: 200
+2024/01/26 11:06:35 INFO: wazuh-wui 172.19.0.3 "GET /manager/configuration/auth/auth" with parameters {} and body {} done in 0.012s: 200
+2024/01/26 11:06:35 INFO: wazuh-wui 172.19.0.3 "GET /groups" with parameters {} and body {} done in 0.018s: 200
+2024/01/26 11:06:39 INFO: wazuh-wui 172.19.0.3 "GET /" with parameters {} and body {} done in 0.010s: 200
+2024/01/26 11:06:39 INFO: wazuh-wui 172.19.0.3 "GET /cluster/status" with parameters {} and body {} done in 0.015s: 200
+2024/01/26 11:06:39 INFO: wazuh-wui 172.19.0.3 "GET /manager/api/config" with parameters {} and body {} done in 0.012s: 200
+2024/01/26 11:06:39 INFO: wazuh-wui 172.19.0.3 "GET /cluster/status" with parameters {} and body {} done in 0.017s: 200
+2024/01/26 11:06:39 INFO: wazuh-wui 172.19.0.3 "GET /manager/configuration/request/remote" with parameters {} and body {} done in 0.012s: 200
+2024/01/26 11:06:39 INFO: wazuh-wui 172.19.0.3 "GET /manager/configuration/auth/auth" with parameters {} and body {} done in 0.012s: 200
+2024/01/26 11:06:39 INFO: wazuh-wui 172.19.0.3 "GET /groups" with parameters {} and body {} done in 0.017s: 200
+2024/01/26 11:08:11 INFO: wazuh-wui 172.19.0.3 "GET /" with parameters {} and body {} done in 0.011s: 200
+2024/01/26 11:08:11 INFO: wazuh-wui 172.19.0.3 "GET /agents/summary/status" with parameters {} and body {} done in 0.015s: 200
+2024/01/26 11:08:11 INFO: wazuh-wui 172.19.0.3 "GET /cluster/status" with parameters {} and body {} done in 0.018s: 200
+2024/01/26 11:08:11 INFO: wazuh-wui 172.19.0.3 "GET /manager/api/config" with parameters {} and body {} done in 0.020s: 200
+2024/01/26 11:08:11 INFO: wazuh-wui 172.19.0.3 "GET /cluster/status" with parameters {} and body {} done in 0.017s: 200
+2024/01/26 11:08:11 INFO: wazuh-wui 172.19.0.3 "GET /manager/configuration/request/remote" with parameters {} and body {} done in 0.014s: 200
+2024/01/26 11:08:11 INFO: wazuh-wui 172.19.0.3 "GET /manager/configuration/auth/auth" with parameters {} and body {} done in 0.014s: 200
+2024/01/26 11:08:11 INFO: wazuh-wui 172.19.0.3 "GET /groups" with parameters {} and body {} done in 0.016s: 200
